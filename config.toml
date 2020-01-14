@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Developer based in Lisbon Portugal"
+sectionPage = "mainmenu"

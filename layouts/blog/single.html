@@ -1,0 +1,29 @@
+{{ define "content" }}
+
+  <div class="blog">
+    {{ $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+    {{ $.Scratch.Add "path" .Site.BaseURL }}
+    <ul class="breadcrumbs">
+      <li><a href="/">home ></a></li>
+      {{ range $index, $element := split $url "/" }}
+        {{ $.Scratch.Add "path" $element }}
+          {{ if ne $element "" }}
+          <li><a href='{{ $.Scratch.Get "path" }}'>{{ . }} ></a></li>
+          {{ $.Scratch.Add "path" "/" }}
+          {{ end }}
+      {{ end }}
+    </ul>
+
+    <header>
+      <h1>{{ .Title }}</h1>
+    </header>
+    <div class="stats">
+      <span>Word Count:</span> {{ .WordCount }} words |
+      <span>Reading Time:</span> {{ .ReadingTime }}mins
+    </div>
+    <div class="post">
+      {{ .Content }}
+    </div>
+  </div>
+
+{{ end }}

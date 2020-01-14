@@ -1,0 +1,17 @@
+{{ define "content" }}
+<div class="blogs">
+  <div class="tags">
+    <select name="" id="">
+      <option value="">CSS</option>
+    </select>
+  </div>
+  <div class="articles">
+    {{ range (.Paginator 5).Pages }}
+    <a href="{{.Permalink}}">
+      {{ .Render "summary"}}
+    </a>
+    {{ end }}
+    {{ template "_internal/pagination.html" . }}
+  </div>
+</div>
+{{ end }}

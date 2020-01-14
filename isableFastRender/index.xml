@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Developer based in Lisbon Portugal</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Developer based in Lisbon Portugal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 12:42:17 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advanced CSS Animations</title>
+      <link>http://localhost:1313/blog/advanced-css-animation/</link>
+      <pubDate>Mon, 13 Jan 2020 12:42:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/advanced-css-animation/</guid>
+      <description>Lots of real world examples</description>
+    </item>
+    
+    <item>
+      <title>Introduction to GoHugo</title>
+      <link>http://localhost:1313/blog/introduction-to-gohugo/</link>
+      <pubDate>Mon, 13 Jan 2020 12:02:19 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/introduction-to-gohugo/</guid>
+      <description>A quick 1 hour intro to the super fast, super fun static website generator</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Bio Social Media </description>
+    </item>
+    
+    <item>
+      <title>CSS Flags</title>
+      <link>http://localhost:1313/work/project-one/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/work/project-one/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Uses</title>
+      <link>http://localhost:1313/uses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/uses/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

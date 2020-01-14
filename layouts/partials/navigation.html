@@ -1,0 +1,7 @@
+<nav>
+  <span class="home"><a href="/">DG</a></span>
+  {{ $currentPage := . }}
+  {{ range .Site.Menus.mainmenu }}
+    <a class="{{if or ($currentPage.IsMenuCurrent "mainmenu" .) ($currentPage.HasMenuCurrent "mainmenu" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{.Name}}</a>
+  {{ end }}
+</nav>
