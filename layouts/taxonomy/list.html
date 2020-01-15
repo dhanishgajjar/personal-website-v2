@@ -10,7 +10,7 @@
   </div>
   <div class="articles">
     {{ range (.Paginator 5).Pages }}
-    <a href="{{.Permalink}}">
+    <a href="{{ .Page.Permalink }}">
       {{ .Render "summary"}}
     </a>
     {{ end }} {{ template "_internal/pagination.html" . }}
