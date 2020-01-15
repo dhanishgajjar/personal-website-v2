@@ -2,6 +2,19 @@
   box-sizing: border-box;
 }
 
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+a,
+a:link,
+a:visited,
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
 body {
   background-color: #efefef;
   display: grid;
@@ -19,48 +32,86 @@ body {
 
 nav {
   align-items: center;
-  background-color: #efefef;
   border-bottom: 1px solid black;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  margin-bottom: 30px;
-  padding: 20px 0 0 0;
-  position: sticky;
-  top: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "togglebutton logo"
+    "navigation navigation";
+  margin: 30px 0;
   width: 100%;
-  @media (min-width: 992px) {
-    flex-direction: row;
-    justify-content: flex-end;
-    padding: 20px 0;
+  button {
+    background-color: none;
+    border: none;
+    font-size: 32px;
+    margin-right: auto;
   }
-  a,
-  a:link,
-  a:visited,
-  a:active {
-    color: black;
-    font-size: 16px;
-    margin: 5px 0;
-    padding: 10px 20px;
-    text-decoration: none;
-    @media (min-width: 992px) {
-      margin-left: 10px;
+  ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-area: navigation;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    padding-top: 10px;
+    li {
+      text-align: center;
     }
-  }
-  a:hover,
-  a.active {
-    background-color: black;
-    color: white;
+    a,
+    a:link,
+    a:active,
+    a:visited {
+      font-size: 16px;
+      padding: 10px 15px;
+    }
+    a:hover,
+    a.active {
+      background-color: black;
+      color: white;
+    }
   }
   span.home {
-    @media (min-width: 992px) {
-      margin-right: auto;
+    font-size: 21px;
+    font-weight: 700;
+    margin-left: auto;
+    a,
+    a:link,
+    a:active,
+    a:visited {
+      padding: 10px 10px;
     }
-    a {
-      font-size: 21px;
-      font-weight: 700;
-      margin-left: 0;
+    a:hover {
+      background-color: black;
+      color: white;
     }
+  }
+  @media (min-width: 992px) {
+    display: flex;
+    justify-content: space-between;
+    button {
+      display: none;
+    }
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      max-height: initial;
+      opacity: 1;
+      a,
+      a:link,
+      a:active,
+      a:visited {
+        display: inline-block;
+        margin-left: 20px;
+        padding: 10px 15px;
+      }
+    }
+    span.home {
+      margin-left: initial;
+    }
+  }
+  [aria-expanded="true"] ~ ul {
+    max-height: initial;
+    opacity: 1;
   }
 }
 
@@ -73,7 +124,7 @@ nav {
     h1 {
       font-size: 24px;
       font-weight: 700;
-      line-height: 1.25;
+      line-height: 1.4;
       margin: 0;
       @media (min-width: 992px) {
         font-size: 48px;
@@ -139,29 +190,59 @@ nav {
 
 .blogs {
   display: grid;
-  grid-gap: 20px;
   grid-template-columns: 1fr;
   grid-template-areas:
     "tags"
     "articles";
   width: 100%;
   @media (min-width: 992px) {
+    grid-gap: 20px;
     grid-template-areas: "tags articles";
     grid-template-columns: 200px 1fr;
   }
   .tags {
-    background-color: white;
     grid-area: tags;
-    padding: 5px 20px;
     width: 100%;
+    h2 {
+      display: none;
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
+    button {
+      background-color: white;
+      border: 1px solid black;
+      cursor: pointer;
+      font-size: 14px;
+      height: 44px;
+      width: 100%;
+    }
+    [aria-expanded="true"] ~ ul {
+      display: grid;
+      max-height: 100%;
+      transform: rotateX(0);
+    }
+    @media (min-width: 992px) {
+      padding: 5px 20px;
+      button {
+        display: none;
+      }
+    }
     ul {
+      display: grid;
+      grid-gap: 5px;
       list-style: none;
       padding: 0;
+      max-height: 0;
+      overflow: hidden;
+      @media (min-width: 992px) {
+        max-height: 100%;
+      }
       li {
         align-items: center;
         display: grid;
-        grid-template-columns: 1fr 40px;
-        margin: 10px 0;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 48px;
         a,
         a:link,
         a:visited,
@@ -174,15 +255,12 @@ nav {
         }
         span {
           background-color: black;
-          border-radius: 50%;
           color: white;
           display: inline-block;
           font-size: 14px;
           font-weight: 700;
-          height: 32px;
-          padding-top: 4px;
+          padding: 5px;
           text-align: center;
-          width: 32px;
         }
       }
     }

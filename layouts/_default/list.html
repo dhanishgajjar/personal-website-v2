@@ -2,7 +2,9 @@
 <div class="blogs">
   <div class="tags">
     <h2>Topics</h2>
-    <ul>
+    <!-- <button aria-controls="menu" aria-expanded="false">Select Topic</button> -->
+    <ul id="menu">
+      <li><a href="/blog/">all</a><span>{{ len (where .Site.RegularPages "Section" "blog") }}</span></li>
       {{ range .Site.Taxonomies.tags }}
       <li><a href="{{ .Page.Permalink }}">{{ .Page.Title }}</a><span>{{ .Count }}</span></li>
       {{ end }}

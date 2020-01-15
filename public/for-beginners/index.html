@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta name="description" content="" />
+
+    
+    
+    
+
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://keen-swanson-bf10fd.netlify.com/style.css" />
+
+    <title>
+    
+      Dhanish Gajjar - Beginners
+    
+    </title>
+  </head>
+  <body>
+  <nav>
+  <button aria-controls="menu" aria-expanded="false">☰</button>
+  <span class="home"><a href="/">DG</a></span>
+  <ul id="menu">
+    
+    
+    <li>
+      <a class="" href="/work/" title="collection of projects done so far, open source and professional">Work</a>
+    </li>
+    
+    <li>
+      <a class="" href="/blog/" title="tutorials, tips and tricks, code samples">Blog</a>
+    </li>
+    
+    <li>
+      <a class=" active" href="/for-beginners/" title="Everything I have to share for people who have just decided to learn how to code">Beginners</a>
+    </li>
+    
+    <li>
+      <a class="" href="/uses/" title="My setup and all the stuff that I use">Uses</a>
+    </li>
+    
+    <li>
+      <a class="" href="/about/" title="all about me, resume, social media links, and how to get in touch with me">About</a>
+    </li>
+    
+  </ul>
+</nav>
+
+  
+    <div class="single">
+        
+    </div>
+
+  <footer>
+    Built with <a href="">GoHugo</a> &amp; Proudly hosted on <a href="">Netlify</a>
+  </footer>
+
+  <script>
+    const navButton = document.querySelector("button[aria-expanded]");
+
+    function toggleNav({ target }) {
+      const expanded = target.getAttribute("aria-expanded") === "true" || false;
+      navButton.setAttribute("aria-expanded", !expanded);
+    }
+
+    navButton.addEventListener("click", toggleNav);
+  </script>
+  </body>
+</html>
