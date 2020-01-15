@@ -3,14 +3,17 @@
   </footer>
 
   <script>
-    const navButton = document.querySelector("button[aria-expanded]");
+    const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
 
-    function toggleNav({ target }) {
-      const expanded = target.getAttribute("aria-expanded") === "true" || false;
-      navButton.setAttribute("aria-expanded", !expanded);
+    function toggleNav() {
+      const expanded = this.getAttribute("aria-expanded") === "true" || false;
+      this.setAttribute("aria-expanded", !expanded);
     }
 
-    navButton.addEventListener("click", toggleNav);
+    navButtons.map(item => {
+      item.addEventListener("click", toggleNav);
+    });
+    
   </script>
   </body>
 </html>
