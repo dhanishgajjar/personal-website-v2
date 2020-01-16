@@ -1,6 +1,6 @@
 ---
 title: "Blog"
-description: "List of Blog Posts written by the Great Dhanish Gajjar"
+description: "Blog Posts"
 menu:
   mainmenu:
     title: "tutorials, tips and tricks, code samples"
