@@ -38,7 +38,9 @@ nav {
   grid-template-areas:
     "togglebutton logo"
     "navigation navigation";
-  margin: 30px 0;
+  margin: 20px 0;
+  position: sticky;
+  top: 10px;
   width: 100%;
   button {
     background: none;
