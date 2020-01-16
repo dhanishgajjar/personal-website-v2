@@ -20,7 +20,7 @@ body {
   display: grid;
   font-family: "IBM Plex Mono", monospace;
   line-height: 1.5;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.5px;
   margin: 0;
   padding: 0 30px;
   place-items: center;
@@ -296,14 +296,13 @@ nav {
         font-size: 16px;
       }
       footer {
-        display: grid;
-        grid-gap: 10px;
-        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        display: flex;
         padding: 0;
-        > * {
-          border: 1px solid black;
-          padding: 5px 0;
-          text-align: center;
+        .stats {
+          margin-left: 0px;
+        }
+        @media (min-width: 992px) {
+          justify-content: space-between;
         }
       }
     }
@@ -368,6 +367,11 @@ footer {
   font-size: 16px;
   font-weight: 400;
   padding: 60px 0;
-  text-align: center;
   width: 100%;
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    text-decoration: underline;
+  }
 }
