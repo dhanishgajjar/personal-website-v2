@@ -38,11 +38,8 @@ nav {
   grid-template-areas:
     "togglebutton logo"
     "navigation navigation";
-  margin-bottom: 20px;
-  max-width: 992px;
-  padding-top: 30px;
-  position: sticky;
-  top: 0;
+  padding: 20px 0;
+  margin-bottom: 10px;
   width: 100%;
   button {
     background: none;
@@ -58,6 +55,7 @@ nav {
     grid-area: navigation;
     overflow: hidden;
     max-height: 0;
+    margin: 0;
     li {
       text-align: center;
     }
@@ -82,16 +80,26 @@ nav {
     a:link,
     a:active,
     a:visited {
-      padding: 10px 10px;
+      padding: 10px;
     }
     a:hover {
       background-color: black;
       color: white;
     }
   }
+  [aria-expanded="true"] ~ ul {
+    max-height: initial;
+    padding: 10px 0;
+    @media (min-width: 992px) {
+      padding: 0;
+    }
+  }
   @media (min-width: 992px) {
     display: flex;
     justify-content: space-between;
+    max-width: 992px;
+    position: sticky;
+    top: 0;
     button {
       display: none;
     }
@@ -112,9 +120,6 @@ nav {
     span.home {
       margin-left: initial;
     }
-  }
-  [aria-expanded="true"] ~ ul {
-    max-height: initial;
   }
 }
 
