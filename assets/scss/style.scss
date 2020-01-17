@@ -24,7 +24,6 @@ body {
   margin: 0;
   padding: 0 30px;
   place-items: center;
-  width: 100%;
   @media (min-width: 992px) {
     padding: 0 100px;
   }
@@ -32,15 +31,18 @@ body {
 
 nav {
   align-items: center;
+  background-color: #efefef;
   border-bottom: 1px solid black;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "togglebutton logo"
     "navigation navigation";
-  margin: 20px 0;
+  margin-bottom: 20px;
+  max-width: 992px;
+  padding-top: 30px;
   position: sticky;
-  top: 10px;
+  top: 0;
   width: 100%;
   button {
     background: none;
@@ -54,10 +56,8 @@ nav {
     display: grid;
     grid-gap: 20px;
     grid-area: navigation;
-    max-height: 0;
-    opacity: 0;
     overflow: hidden;
-    padding-top: 10px;
+    max-height: 0;
     li {
       text-align: center;
     }
@@ -65,7 +65,7 @@ nav {
     a:link,
     a:active,
     a:visited {
-      font-size: 16px;
+      font-size: 18px;
       padding: 10px 15px;
     }
     a:hover,
@@ -75,7 +75,7 @@ nav {
     }
   }
   span.home {
-    font-size: 21px;
+    font-size: 24px;
     font-weight: 700;
     margin-left: auto;
     a,
@@ -115,81 +115,78 @@ nav {
   }
   [aria-expanded="true"] ~ ul {
     max-height: initial;
-    opacity: 1;
   }
 }
 
 .container {
+  max-width: 992px;
   width: 100%;
-  .intro {
-    margin: 50px 0;
-    grid-area: intro;
-    span,
-    h1 {
-      font-size: 24px;
-      font-weight: 700;
-      line-height: 1.4;
-      margin: 0;
-      @media (min-width: 992px) {
-        font-size: 48px;
-      }
-    }
-  }
+}
 
-  .cards {
-    display: grid;
-    grid-area: cards;
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
+.intro {
+  margin: 50px 0;
+  grid-area: intro;
+  span,
+  h1 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.4;
+    margin: 0;
     @media (min-width: 992px) {
-      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    }
-    a,
-    a:link,
-    a:visited,
-    a:active {
-      color: black;
-      cursor: pointer;
-      text-decoration: none;
-    }
-    .card {
-      background-color: white;
-      border: 1px solid transparent;
-      display: flex;
-      flex-direction: column;
-      padding: 30px;
-      @media (min-width: 992px) {
-        height: 100%;
-        min-height: 250px;
-      }
-      &:hover {
-        border: 1px solid black;
-      }
-      h2 {
-        font-size: 21px;
-        font-weight: 500;
-        margin: 0;
-        text-transform: capitalize;
-      }
-      p {
-        font-size: 16px;
-        margin-top: 40px;
-        position: relative;
-        &:before {
-          background-color: black;
-          content: "";
-          height: 1px;
-          position: absolute;
-          top: -20px;
-          width: 100%;
-        }
-      }
+      font-size: 48px;
     }
   }
 }
 
-.projects {
-  width: 100%;
+.cards {
+  display: grid;
+  grid-area: cards;
+  grid-gap: 20px;
+  grid-template-columns: 1fr;
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  }
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .card {
+    background-color: white;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    @media (min-width: 992px) {
+      height: 100%;
+      min-height: 250px;
+    }
+    &:hover {
+      border: 1px solid black;
+    }
+    h2 {
+      font-size: 21px;
+      font-weight: 500;
+      margin: 0;
+      text-transform: capitalize;
+    }
+    p {
+      font-size: 16px;
+      margin-top: 40px;
+      position: relative;
+      &:before {
+        background-color: black;
+        content: "";
+        height: 1px;
+        position: absolute;
+        top: -20px;
+        width: 100%;
+      }
+    }
+  }
 }
 
 .blogs {
@@ -198,6 +195,7 @@ nav {
   grid-template-areas:
     "tags"
     "articles";
+  max-width: 992px;
   width: 100%;
   @media (min-width: 992px) {
     grid-gap: 20px;
@@ -217,9 +215,12 @@ nav {
       background-color: white;
       border: 1px solid black;
       cursor: pointer;
-      font-size: 14px;
+      font-size: 16px;
       height: 44px;
       width: 100%;
+      &:active {
+        color: black;
+      }
     }
     [aria-expanded="true"] ~ ul {
       display: grid;
@@ -312,7 +313,6 @@ nav {
 }
 
 .blog {
-  width: 100%;
   .breadcrumbs {
     display: flex;
     flex-wrap: wrap;
@@ -325,7 +325,7 @@ nav {
       background: none;
       border: none;
       color: black;
-      font-size: 16px;
+      font-size: 14px;
       margin: 0;
       padding: 0;
       text-decoration: none;
@@ -341,6 +341,9 @@ nav {
     span {
       font-weight: 600;
     }
+  }
+  p {
+    font-size: 18px;
   }
 }
 
@@ -361,14 +364,11 @@ nav {
   }
 }
 
-.single {
-  width: 100%;
-}
-
 footer {
   font-size: 16px;
   font-weight: 400;
   padding: 60px 0;
+  max-width: 992px;
   width: 100%;
   a,
   a:link,
