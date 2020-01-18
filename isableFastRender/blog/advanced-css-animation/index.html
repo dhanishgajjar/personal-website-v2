@@ -11,68 +11,83 @@
     
     
 
-    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:300,400,500,600,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="http://localhost:1313/style.css" />
 
     <title>
     
-      Dhanish Gajjar - Advanced CSS Animations
-    
+    Dhanish Gajjar - Blog | Advanced CSS Animations
+
     </title>
   </head>
   <body>
   <nav>
+  <button aria-controls="menu" aria-expanded="false">☰</button>
   <span class="home"><a href="/">DG</a></span>
-  
-  
-    <a class="" href="/work/" title="collection of projects done so far, open source and professional">Work</a>
-  
-    <a class="" href="/blog/" title="tutorials, tips and tricks, code samples">Blog</a>
-  
-    <a class="" href="/uses/" title="My setup and all the stuff that I use">Uses</a>
-  
-    <a class="" href="/about/" title="all about me, resume, social media links, and how to get in touch with me">About</a>
-  
+  <ul id="menu">
+    
+    
+    <li>
+      <a class="" href="/work/" title="collection of projects done so far, open source and professional">Work</a>
+    </li>
+    
+    <li>
+      <a class="" href="/blog/" title="tutorials, tips and tricks, code samples">Blog</a>
+    </li>
+    
+    <li>
+      <a class="" href="/for-beginners/" title="Everything I have to share for people who have just decided to learn how to code">Beginners</a>
+    </li>
+    
+    <li>
+      <a class="" href="/uses/" title="My setup and all the stuff that I use">Uses</a>
+    </li>
+    
+    <li>
+      <a class="" href="/about/" title="all about me, resume, social media links, and how to get in touch with me">About</a>
+    </li>
+    
+  </ul>
 </nav>
 
   
-<div class="blogs">
-  
-  
-  <ul class="breadcrumbs">
-    <li><a href="/">home ></a></li>
-    
-      
+  <div class="container blog">
+     
+    <ul class="breadcrumbs">
         
-        <li><a href='http://localhost:1313/blog'>blog ></a></li>
-        
-        
-    
-      
-        
-        <li><a href='http://localhost:1313/blog/advanced-css-animation'>advanced-css-animation ></a></li>
-        
-        
-    
-      
-        
-    
-  </ul>
+      <li><a href='http://localhost:1313/blog'>blog ></a></li>
+          
+      <li><a href='http://localhost:1313/blog/advanced-css-animation'>advanced-css-animation ></a></li>
+           
+    </ul>
 
-  <header>
-    <h1>Advanced CSS Animations</h1>
-  </header>
-  <div class="stats">
-    <span>Word Count:</span> 0 words |
-    <span>Reading Time:</span> 0mins
+    <header>
+      <h1>Advanced CSS Animations</h1>
+    </header>
+    <div class="stats">
+      <span>Word Count:</span> 0 words | <span>Reading Time:</span> 0mins
+    </div>
+    <div class="post">
+      
+    </div>
   </div>
-  <div class="post">
-    
-  </div>
-</div>
 
   <footer>
-    Built with <a href="">GoHugo</a> &amp; Proudly hosted on <a href="">Netlify</a>
+    Built with <a href="https://gohugo.io">GoHugo</a> &amp; Proudly hosted on <a href="https://netlify.com">Netlify</a>
   </footer>
+
+  <script>
+    const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
+
+    function toggleNav() {
+      const expanded = this.getAttribute("aria-expanded") === "true" || false;
+      this.setAttribute("aria-expanded", !expanded);
+    }
+
+    navButtons.map(item => {
+      item.addEventListener("click", toggleNav);
+    });
+    
+  </script>
   <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10&v=2"></' + 'script>')</script></body>
 </html>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>css on Developer based in Lisbon Portugal</title>
+    <link>http://localhost:1313/tags/css/</link>
+    <description>Recent content in css on Developer based in Lisbon Portugal</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 13 Jan 2020 12:42:17 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advanced CSS Animations</title>
+      <link>http://localhost:1313/blog/advanced-css-animation/</link>
+      <pubDate>Mon, 13 Jan 2020 12:42:17 +0000</pubDate>
+      
+      <guid>http://localhost:1313/blog/advanced-css-animation/</guid>
+      <description>Lots of real world examples</description>
+    </item>
+    
+  </channel>
+</rss>

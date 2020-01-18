@@ -38,7 +38,7 @@ nav {
   grid-template-areas:
     "togglebutton logo"
     "navigation navigation";
-  padding: 20px 0;
+  padding: 10px 0;
   margin-bottom: 10px;
   width: 100%;
   button {
@@ -46,8 +46,12 @@ nav {
     border: none;
     font-size: 32px;
     margin-right: auto;
+    outline: none;
     padding: 0;
     width: max-content;
+    &:active {
+      color: black;
+    }
   }
   ul {
     display: grid;
@@ -97,6 +101,7 @@ nav {
   @media (min-width: 992px) {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 60px;
     max-width: 992px;
     position: sticky;
     top: 0;
@@ -149,7 +154,7 @@ nav {
   grid-gap: 20px;
   grid-template-columns: 1fr;
   @media (min-width: 992px) {
-    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   }
   a,
   a:link,
@@ -243,6 +248,7 @@ nav {
       grid-gap: 5px;
       list-style: none;
       padding: 0;
+      margin: 10px 0;
       max-height: 0;
       overflow: hidden;
       @media (min-width: 992px) {
@@ -305,11 +311,13 @@ nav {
       }
       footer {
         display: flex;
+        flex-direction: column;
         padding: 0;
         .stats {
           margin-left: 0px;
         }
         @media (min-width: 992px) {
+          flex-direction: row;
           justify-content: space-between;
         }
       }
@@ -380,5 +388,105 @@ footer {
   a:visited,
   a:active {
     text-decoration: underline;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+  }
+
+  header,
+  footer,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: white;
+  }
+
+  nav {
+    background-color: black;
+    button,
+    span.home,
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      color: white;
+    }
+    span.home a:active,
+    span.home a:hover,
+    ul li a.active,
+    ul li a:hover {
+      color: black;
+      background: white;
+    }
+    border-bottom: 1px solid #333;
+  }
+
+  .cards .card {
+    background-color: #111;
+    &:hover {
+      border: 1px solid #333;
+    }
+    p:before {
+      background: #222;
+    }
+  }
+
+  .blogs .articles {
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      background: #111;
+    }
+    a:hover {
+      border: 1px solid #333;
+    }
+  }
+
+  .blogs {
+    .tags {
+      ul {
+        li {
+          a,
+          a:link,
+          a:visited,
+          a:active {
+            color: white;
+          }
+          span {
+            background: white;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+
+  .blog {
+    .breadcrumbs {
+      li {
+        a,
+        a:link,
+        a:visited,
+        a:active {
+          color: white;
+        }
+      }
+    }
+    .stats {
+      color: white;
+    }
   }
 }
