@@ -222,7 +222,7 @@ nav {
       }
     }
     button {
-      background-color: white;
+      background: transparent;
       border: 1px solid black;
       cursor: pointer;
       font-size: 16px;
@@ -236,6 +236,7 @@ nav {
       display: grid;
       max-height: 100%;
       transform: rotateX(0);
+      margin: 20px 0;
     }
     @media (min-width: 992px) {
       padding: 5px 20px;
@@ -248,7 +249,7 @@ nav {
       grid-gap: 5px;
       list-style: none;
       padding: 0;
-      margin: 10px 0;
+      margin: 5px 0;
       max-height: 0;
       overflow: hidden;
       @media (min-width: 992px) {
@@ -434,12 +435,12 @@ footer {
   }
 
   .cards .card {
-    background-color: #111;
+    background-color: #222;
     &:hover {
-      border: 1px solid #333;
+      border: 1px solid #444;
     }
     p:before {
-      background: #222;
+      background: #444;
     }
   }
 
@@ -448,15 +449,22 @@ footer {
     a:link,
     a:visited,
     a:active {
-      background: #111;
+      background: #222;
     }
     a:hover {
-      border: 1px solid #333;
+      border: 1px solid #444;
     }
   }
 
   .blogs {
     .tags {
+      button {
+        border: 1px solid white;
+        color: white;
+        &:active {
+          color: white;
+        }
+      }
       ul {
         li {
           a,
@@ -466,8 +474,7 @@ footer {
             color: white;
           }
           span {
-            background: white;
-            color: black;
+            background: #111;
           }
         }
       }
