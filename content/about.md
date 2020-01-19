@@ -2,7 +2,7 @@
 title: "About"
 menu:
   mainmenu:
-    title: "all about me, resume, social media links, and how to get in touch with me"
+    title: "About me, resume, social media links, and how to get in touch with me"
     weight: 05
 ---
 
