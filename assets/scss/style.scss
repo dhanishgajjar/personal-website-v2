@@ -96,15 +96,17 @@ nav {
     display: grid;
     grid-gap: 20px;
     grid-area: navigation;
-    overflow: hidden;
+    height: 0px;
     margin: 0;
-    transition: all 0.5s cubic-bezier(0, 0, 0, 1.2);
+    padding: 5px 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
     li {
       text-align: center;
       @for $i from 1 through 5 {
         &:nth-child(#{$i}) {
           opacity: 0;
-          transition: all 0.2s #{$i * 0.1}s ease-in;
+          transition: opacity 0.2s #{$i * 0.1}s ease-in;
         }
       }
     }
@@ -122,17 +124,11 @@ nav {
     }
   }
 
-  [aria-expanded="false"] ~ ul {
-    height: 0;
-  }
-
   [aria-expanded="true"] ~ ul {
-    height: initial;
-    padding: 10px 0;
+    height: 250px;
     li {
       opacity: 1;
     }
-
     @media (min-width: 992px) {
       padding: 0;
     }
@@ -167,8 +163,11 @@ nav {
     ul {
       display: flex;
       justify-content: flex-end;
-      max-height: initial;
+      height: initial;
       opacity: 1;
+      li:nth-child(-n+5) {
+        opacity: 1;
+      }
       a,
       a:link,
       a:active,
