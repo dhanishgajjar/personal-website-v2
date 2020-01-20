@@ -1,8 +1,7 @@
 * {
   box-sizing: border-box;
   &::selection {
-    background: black;
-    color: springgreen;
+    background: orangered;
   }
 }
 
@@ -50,7 +49,7 @@ nav {
     border: none;
     font-size: 32px;
     height: 30px;
-    margin-right: auto;
+    margin-left: auto;
     outline: none;
     padding: 0;
     position: relative;
@@ -137,7 +136,7 @@ nav {
   span.home {
     font-size: 24px;
     font-weight: 700;
-    margin-left: auto;
+    margin-right: auto;
     a,
     a:link,
     a:active,
@@ -190,16 +189,43 @@ nav {
 }
 
 .intro {
-  margin: 50px 0;
+  margin: 0 0 30px 0;
   grid-area: intro;
+  @media (min-width: 992px) {
+    margin: 0 0 50px 0;
+  }
   span,
   h1 {
+    margin: 0;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.4;
-    margin: 0;
     @media (min-width: 992px) {
       font-size: 48px;
+    }
+  }
+}
+
+.social {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
+  padding: 30px 0;
+  place-items: left center;
+  .socialIcon {
+    transform: scale(0.75);
+  }
+  @media (min-width: 992px) {
+    .socialIcon {
+      transform: scale(1);
+    }
+  }
+  a {
+    display: block;
+    &:hover .socialIcon > * {
+      fill: orangered;
+    }
+    .socialIcon path {
+      fill: slategray;
     }
   }
 }
@@ -446,12 +472,6 @@ footer {
 }
 
 @media (prefers-color-scheme: dark) {
-  * {
-    &::selection {
-      background: springgreen;
-      color: black;
-    }
-  }
   body {
     background: black;
   }
