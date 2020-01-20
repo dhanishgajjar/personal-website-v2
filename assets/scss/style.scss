@@ -147,6 +147,7 @@ nav {
     a:hover {
       background-color: black;
       color: white;
+      cursor: pointer;
     }
   }
 
@@ -165,7 +166,7 @@ nav {
       justify-content: flex-end;
       height: initial;
       opacity: 1;
-      li:nth-child(-n+5) {
+      li:nth-child(-n + 5) {
         opacity: 1;
       }
       a,
