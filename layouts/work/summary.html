@@ -1,0 +1,6 @@
+<article>
+  <img {{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
+  <h2>{{ .Title }}</h2>
+  <p class="summary">{{ .Params.Summary }}</p>
+  <button>View Project →</button>
+</article>

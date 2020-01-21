@@ -20,14 +20,14 @@
   <body>
     <div class="container">
       <!-- {{ partial "navigation" . }} -->
-      {{ partial "social" . }}
       
       <div class="intro">
         <span>Hi! 👋🏽 </span>
         <span>I'm Dhanish</span>
         <h1>a Developer based in Lisbon Portugal 🇵🇹</h1>
       </div>
-
+      
+      {{ partial "social" . }}
 
       <div class="cards">
         {{ range .Site.Menus.mainmenu }}

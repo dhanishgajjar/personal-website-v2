@@ -189,10 +189,10 @@ nav {
 }
 
 .intro {
-  margin: 0 0 30px 0;
+  margin: 30px 0;
   grid-area: intro;
   @media (min-width: 992px) {
-    margin: 0 0 50px 0;
+    margin: 50px 0;
   }
   span,
   h1 {
@@ -209,12 +209,13 @@ nav {
 .social {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(48px, 1fr));
-  padding: 30px 0;
-  place-items: left center;
+  place-items: center;
+  padding: 0 0 30px 0;
   .socialIcon {
     transform: scale(0.75);
   }
   @media (min-width: 992px) {
+    padding: 0 0 50px 0;
     .socialIcon {
       transform: scale(1);
     }
@@ -277,6 +278,72 @@ nav {
         top: -20px;
         width: 100%;
       }
+    }
+  }
+}
+
+.projects {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 60px;
+  article {
+    display: grid;
+    grid-gap: 20px 40px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      "project-hero project-hero"
+      "title title"
+      "summary summary"
+      "action action";
+    place-items: center;
+    img {
+      grid-area: project-hero;
+      object-fit: cover;
+      max-height: 200px;
+      width: 100%;
+    }
+    h2, p {
+      text-align: center;
+    }
+    h2 {
+      align-self: flex-start;
+      grid-area: title;
+      margin: 0;
+      padding: 0;
+    }
+    p {
+      grid-area: summary;
+    }
+    button {
+      align-self: flex-end;
+      background: none;
+      border: 1px solid black;
+      color: black;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 500;
+      grid-area: action;
+      height: 44px;
+      max-width: 300px;
+      padding: 0 20px;
+      transition: background 0.25s ease-in-out, color 0.25s ease-in-out;
+      &:hover {
+        background: black;
+        color: white;
+      }
+    }
+    @media (min-width: 992px) {
+      grid-template-areas:
+        "project-hero title"
+        "project-hero summary"
+        "project-hero action";
+        place-items: initial;
+        img {
+          max-height: 300px;
+        }
+        h2, p {
+          text-align: left;
+        }
     }
   }
 }
