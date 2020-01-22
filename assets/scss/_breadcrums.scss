@@ -1,0 +1,24 @@
+.breadcrumbs {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    background: none;
+    border: none;
+    color: black;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+  li {
+    margin-right: 10px;
+  }
+}

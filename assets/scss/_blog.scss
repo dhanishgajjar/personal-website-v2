@@ -1,0 +1,134 @@
+.blogs {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-areas:
+    "tags"
+    "articles";
+  max-width: 992px;
+  width: 100%;
+  @media (min-width: 992px) {
+    grid-gap: 20px;
+    grid-template-areas: "tags articles";
+    grid-template-columns: 200px 1fr;
+  }
+  .tags {
+    grid-area: tags;
+    width: 100%;
+    h2 {
+      display: none;
+      @media (min-width: 992px) {
+        display: block;
+      }
+    }
+    button {
+      background: transparent;
+      border: 1px solid black;
+      cursor: pointer;
+      font-size: 16px;
+      height: 44px;
+      width: 100%;
+      &:active {
+        color: black;
+      }
+    }
+    [aria-expanded="true"] ~ ul {
+      display: grid;
+      max-height: 100%;
+      transform: rotateX(0);
+      margin: 20px 0;
+    }
+    @media (min-width: 992px) {
+      padding: 5px 20px;
+      button {
+        display: none;
+      }
+    }
+    ul {
+      display: grid;
+      grid-gap: 5px;
+      list-style: none;
+      padding: 0;
+      margin: 5px 0;
+      max-height: 0;
+      overflow: hidden;
+      @media (min-width: 992px) {
+        max-height: 100%;
+      }
+      li {
+        align-items: center;
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: 1fr 48px;
+        a,
+        a:link,
+        a:visited,
+        a:active {
+          color: black;
+          text-decoration: none;
+        }
+        a:hover {
+          text-decoration: underline;
+        }
+        span {
+          background-color: black;
+          color: white;
+          display: inline-block;
+          font-size: 14px;
+          font-weight: 700;
+          padding: 5px;
+          text-align: center;
+        }
+      }
+    }
+  }
+  .articles {
+    grid-area: articles;
+    display: grid;
+    grid-gap: 20px;
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      border: 1px solid transparent;
+      background-color: white;
+      color: black;
+      display: block;
+      padding: 20px 30px;
+      text-decoration: none;
+    }
+    a:hover {
+      border: 1px solid black;
+    }
+    article {
+      header {
+        h2 {
+          margin: 0;
+        }
+      }
+      p,
+      footer > * {
+        font-size: 16px;
+      }
+      footer {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        .stats {
+          margin-left: 0px;
+        }
+        @media (min-width: 992px) {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+      }
+    }
+  }
+}
+
+.blog {
+  .stats {
+    span {
+      font-weight: 600;
+    }
+  }
+}

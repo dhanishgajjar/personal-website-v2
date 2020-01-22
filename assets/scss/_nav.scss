@@ -1,0 +1,150 @@
+nav {
+  align-items: center;
+  background-color: #efefef;
+  border-bottom: 1px solid black;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "togglebutton logo"
+    "navigation navigation";
+  padding: 10px 0;
+  margin-bottom: 10px;
+  width: 100%;
+  button {
+    background: none;
+    border: none;
+    font-size: 32px;
+    height: 30px;
+    margin-left: auto;
+    outline: none;
+    padding: 0;
+    position: relative;
+    width: 30px;
+  }
+  button[aria-expanded="false"],
+  button[aria-expanded="true"] {
+    &:before,
+    &:after {
+      background: black;
+      bottom: 0;
+      content: "";
+      height: 2px;
+      left: 0;
+      margin: auto;
+      position: absolute;
+      right: 0;
+      top: 0;
+      transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+      width: 100%;
+    }
+  }
+
+  button[aria-expanded="false"] {
+    &:before {
+      transform: translateY(-5px) rotate3d(0, 0, 0, 45deg);
+    }
+    &:after {
+      transform: translateY(5px) rotate3d(0, 0, 0, -45deg);
+    }
+  }
+
+  button[aria-expanded="true"] {
+    &:before {
+      transform: translateY(0px) rotate3d(0, 0, 1, 45deg);
+    }
+    &:after {
+      transform: translateY(0px) rotate3d(0, 0, 1, -45deg);
+    }
+  }
+
+  ul {
+    display: grid;
+    grid-gap: 20px;
+    grid-area: navigation;
+    height: 0px;
+    margin: 0;
+    padding: 5px 0;
+    overflow: hidden;
+    transition: all 0.5s ease-in-out;
+    li {
+      text-align: center;
+      @for $i from 1 through 5 {
+        &:nth-child(#{$i}) {
+          opacity: 0;
+          transition: opacity 0.2s #{$i * 0.1}s ease-in;
+        }
+      }
+    }
+    a,
+    a:link,
+    a:active,
+    a:visited {
+      font-size: 18px;
+      padding: 10px 15px;
+    }
+    a:hover,
+    a.active {
+      background-color: black;
+      color: white;
+    }
+  }
+
+  [aria-expanded="true"] ~ ul {
+    height: 250px;
+    li {
+      opacity: 1;
+    }
+    @media (min-width: 992px) {
+      padding: 0;
+    }
+  }
+
+  span.home {
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: auto;
+    a,
+    a:link,
+    a:active,
+    a:visited {
+      padding: 10px;
+    }
+    a:hover {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: 992px) {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    max-width: 992px;
+    position: sticky;
+    top: 0;
+    button {
+      display: none;
+    }
+    ul {
+      display: flex;
+      justify-content: flex-end;
+      height: initial;
+      opacity: 1;
+      li:nth-child(-n + 5) {
+        opacity: 1;
+      }
+      a,
+      a:link,
+      a:active,
+      a:visited {
+        display: inline-block;
+        margin-left: 20px;
+        padding: 10px 15px;
+      }
+    }
+    span.home {
+      margin-left: initial;
+    }
+  }
+}

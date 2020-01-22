@@ -1,6 +1,10 @@
-<article>
-  <img {{ with .Params.featured_image }} src="{{ . }}"{{ end }} alt="{{ .Title }}">
+<li>
   <h2>{{ .Title }}</h2>
   <p class="summary">{{ .Params.Summary }}</p>
-  <button>View Project →</button>
-</article>
+  <div class="buttons">
+    {{ if .Content }}
+    <a href="{{ .Permalink }}">Case Study →</a>
+    {{ end }}
+    <a href="{{ .Params.projectURL }}" target="_blank">View Project →</a>
+  </div>
+</li>

@@ -1,5 +1,9 @@
 {{ define "content" }}
-<div class="container projects">
-  {{ range .Pages }} {{ .Render "summary"}} {{ end }}
+<div class="container">
+  <ul class="projects">
+    {{ range .Pages }}
+      {{ .Render "summary"}}
+    {{ end }}
+  </ul>
 </div>
 {{ end }}

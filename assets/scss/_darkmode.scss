@@ -1,0 +1,129 @@
+@media (prefers-color-scheme: dark) {
+  body {
+    background: black;
+  }
+
+  header,
+  footer,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  span,
+  a,
+  a:link,
+  a:visited,
+  a:active {
+    color: white;
+  }
+
+  nav {
+    background-color: black;
+    span.home,
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      color: white;
+    }
+    button[aria-expanded="false"],
+    button[aria-expanded="true"] {
+      &:before,
+      &:after {
+        background: white;
+      }
+    }
+    span.home a:active,
+    span.home a:hover,
+    ul li a.active,
+    ul li a:hover {
+      color: black;
+      background: white;
+    }
+    border-bottom: 1px solid #333;
+  }
+
+  .cards .card {
+    background-color: #222;
+    &:hover {
+      border: 1px solid #444;
+    }
+    p:before {
+      background: #444;
+    }
+  }
+
+  .blogs .articles {
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      background: #222;
+    }
+    a:hover {
+      border: 1px solid #444;
+    }
+  }
+
+  .blogs {
+    .tags {
+      button {
+        border: 1px solid white;
+        color: white;
+        &:active {
+          color: white;
+        }
+      }
+      ul {
+        li {
+          a,
+          a:link,
+          a:visited,
+          a:active {
+            color: white;
+          }
+          span {
+            background: #111;
+          }
+        }
+      }
+    }
+  }
+
+  .blog {
+    .breadcrumbs {
+      li {
+        a,
+        a:link,
+        a:visited,
+        a:active {
+          color: white;
+        }
+      }
+    }
+    .stats {
+      color: white;
+    }
+  }
+
+  .projects {
+    li {
+      background-color: #333;
+      .buttons {
+        a,
+        a:link,
+        a:visited,
+        a:active {
+          border-color: white;
+          &:hover {
+            background-color: white;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
