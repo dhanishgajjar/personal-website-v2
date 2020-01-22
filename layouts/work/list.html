@@ -1,9 +1,8 @@
 {{ define "content" }}
+{{ partial "navigation" . }}
 <div class="container">
   <ul class="projects">
-    {{ range .Pages }}
-      {{ .Render "summary"}}
-    {{ end }}
+    {{ range .Pages }} {{ .Render "summary"}} {{ end }}
   </ul>
 </div>
 {{ end }}

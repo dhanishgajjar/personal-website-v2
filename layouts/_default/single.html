@@ -1,5 +1,19 @@
+{{ define "title" }}
+    Dhanish Gajjar - {{ .Title }}
+{{ end }}
+
 {{ define "content" }}
-<div class="container single">
+  {{ partial "navigation" . }}
+  <div class="container">
+  {{ if eq .Page.Section "blog" "work"}}
+  {{ partial "breadcrumbs" . }}
+  {{end}}
+  {{ if eq .Page.Section "blog"}}
+    <div class="stats">
+      <span>Word Count:</span> {{ .WordCount }} words | <span>Reading Time:</span> {{ .ReadingTime }}mins
+    </div>
+  {{end}}
+    
   {{ .Content }}
-</div>
+  </div>
 {{ end }}
