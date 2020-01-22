@@ -93,25 +93,23 @@
     }
   }
 
-  .blog {
-    .breadcrumbs {
-      li {
-        a,
-        a:link,
-        a:visited,
-        a:active {
-          color: white;
-        }
+  .breadcrumbs {
+    li {
+      a,
+      a:link,
+      a:visited,
+      a:active {
+        color: white;
       }
     }
-    .stats {
-      color: white;
-    }
+  }
+  .stats {
+    color: white;
   }
 
   .projects {
     li {
-      background-color: #333;
+      background-color: #222;
       .buttons {
         a,
         a:link,

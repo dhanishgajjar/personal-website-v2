@@ -24,7 +24,7 @@
       grid-area: buttons;
       display: grid;
       grid-template-columns: 1fr;
-      grid-gap: 5px;
+      grid-gap: 20px;
       place-items: center;
       a,
       a:link,
@@ -47,6 +47,7 @@
         "title buttons"
         "summary buttons";
       place-items: initial;
+      padding: 40px;
       p {
         text-align: initial;
       }

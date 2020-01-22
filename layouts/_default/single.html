@@ -3,11 +3,15 @@
 {{ end }}
 
 {{ define "content" }}
+
   {{ partial "navigation" . }}
+
   <div class="container">
+
   {{ if eq .Page.Section "blog" "work"}}
   {{ partial "breadcrumbs" . }}
   {{end}}
+
   {{ if eq .Page.Section "blog"}}
     <div class="stats">
       <span>Word Count:</span> {{ .WordCount }} words | <span>Reading Time:</span> {{ .ReadingTime }}mins
@@ -15,5 +19,6 @@
   {{end}}
     
   {{ .Content }}
+  
   </div>
 {{ end }}
