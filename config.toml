@@ -2,8 +2,3 @@ baseURL = "https://keen-swanson-bf10fd.netlify.com/"
 languageCode = "en-us"
 title = "Developer based in Lisbon Portugal"
 sectionPage = "mainmenu"
-
-[caches]
-[caches.getjson]
-dir = ":resourceDir/_gen"
-maxAge = "10s"
