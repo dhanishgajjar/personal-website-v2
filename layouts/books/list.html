@@ -4,11 +4,12 @@
   <ul class="books">
     {{ range $books }}
     <li>
-      <img src="{{ index .image_url 0 }}" alt="" />
-      {{ $slicedTitle := index .title 0 }}
-      <h4>{{ $slicedTitle }}</h4>
+      {{ $url := index .image_url 0 }}
+      {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
+      <img src="{{ $url }}" alt="{{ $slicedTitle }}" />
+      <h2>{{ $slicedTitle }}</h2>
       {{ $authors := index .authors 0 }} {{ range $authors }} {{ range . }}
-      <h5>by: {{ index .name 0 }}</h5>
+      <h3>by {{ index .name 0 }}</h3>
       {{ end }} {{ end }}
     </li>
     {{ end }}

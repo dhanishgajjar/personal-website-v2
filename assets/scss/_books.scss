@@ -1,16 +1,24 @@
 .books {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   li {
     background-color: white;
     display: flex;
     flex-direction: column;
     place-items: center;
     padding: 40px;
-    h4, h5 {
+    h2,
+    h3 {
       margin: 20px 0 0 0;
       text-align: center;
+    }
+    h2 {
+      font-size: 16px;
+    }
+    h3 {
+      font-size: 16px;
+      color: #666;
     }
   }
 }
