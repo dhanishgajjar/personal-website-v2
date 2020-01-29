@@ -5,5 +5,5 @@ sectionPage = "mainmenu"
 
 [caches]
 [caches.getjson]
-dir = ":cacheDir/:project"
+dir = ":cacheDir/getjson"
 maxAge = "10s"
