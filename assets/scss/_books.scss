@@ -6,17 +6,22 @@
     background-color: white;
     display: flex;
     flex-direction: column;
+    // justify-content: space-evenly;
     place-items: center;
     padding: 40px;
+    img {
+      margin-bottom: auto;
+    }
     h2,
     h3 {
-      margin: 20px 0 0 0;
       text-align: center;
     }
     h2 {
+      margin: 20px 0;
       font-size: 16px;
     }
     h3 {
+      margin-top: auto;
       font-size: 16px;
       color: #666;
     }
