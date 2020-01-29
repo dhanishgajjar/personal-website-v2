@@ -4,5 +4,6 @@ title = "Developer based in Lisbon Portugal"
 sectionPage = "mainmenu"
 
 [caches]
-  [caches.getjson]
-    maxAge = "10s"
+[caches.getjson]
+dir = ":resourceDir/_gen"
+maxAge = "10s"
