@@ -42,20 +42,8 @@ body {
 @import "social.scss";
 @import "projects.scss";
 @import "blog.scss";
+@import "books.scss";
 @import "breadcrums.scss";
 @import "pagination.scss";
 @import "footer.scss";
 @import "darkmode.scss";
-
-.books {
-  display: grid;
-  grid-gap: 20px;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  li {
-    border: 1px solid black;
-    display: flex;
-    flex-direction: column;
-    padding: 20px;
-    place-items: center;
-  }
-}

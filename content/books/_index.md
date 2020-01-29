@@ -1,7 +1,7 @@
 ---
-title: "Books"
+title: "Reading"
 menu:
   mainmenu:
-    title: "All the books I own"
-    weight: 06
+    title: "My recommended books"
+    weight: 05
 ---

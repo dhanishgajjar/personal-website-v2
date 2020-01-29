@@ -1,0 +1,16 @@
+.books {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  li {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding: 40px;
+    h4, h5 {
+      margin: 20px 0 0 0;
+      text-align: center;
+    }
+  }
+}

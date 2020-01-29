@@ -1,15 +1,17 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <div class="container">
   {{ $books := getJSON "https://goodreads-api.now.sh" }}
-  {{ len $books }}
   <ul class="books">
     {{ range $books }}
     <li>
       <img src="{{ index .image_url 0 }}" alt="" />
-      <h4>{{ index .title 0 }}</h4>
+      {{ $slicedTitle := index .title 0 }}
+      <h4>{{ $slicedTitle }}</h4>
+      {{ $authors := index .authors 0 }} {{ range $authors }} {{ range . }}
+      <h5>by: {{ index .name 0 }}</h5>
+      {{ end }} {{ end }}
     </li>
     {{ end }}
   </ul>
-  <ul class="books"></ul>
 </div>
 {{ end }}
