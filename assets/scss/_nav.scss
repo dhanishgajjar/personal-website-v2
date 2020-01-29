@@ -7,12 +7,13 @@ nav {
   grid-template-areas:
     "togglebutton logo"
     "navigation navigation";
-  padding: 10px 0;
-  margin-bottom: 10px;
+  padding: 20px 0 0 0;
+  margin-bottom: 20px;
   width: 100%;
   button {
     background: none;
     border: none;
+    cursor: pointer;
     font-size: 32px;
     height: 30px;
     margin-left: auto;
@@ -63,12 +64,12 @@ nav {
     grid-area: navigation;
     height: 0px;
     margin: 0;
-    padding: 5px 0;
+    padding: 10px 0;
     overflow: hidden;
     transition: all 0.5s ease-in-out;
     li {
       text-align: center;
-      @for $i from 1 through 5 {
+      @for $i from 1 through 6 {
         &:nth-child(#{$i}) {
           opacity: 0;
           transition: opacity 0.2s #{$i * 0.1}s ease-in;
@@ -90,7 +91,7 @@ nav {
   }
 
   [aria-expanded="true"] ~ ul {
-    height: 250px;
+    height: 350px;
     li {
       opacity: 1;
     }
@@ -131,7 +132,7 @@ nav {
       justify-content: flex-end;
       height: initial;
       opacity: 1;
-      li:nth-child(-n + 5) {
+      li:nth-child(-n + 6) {
         opacity: 1;
       }
       a,
