@@ -1,11 +1,14 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <div class="container">
   {{ $books := getJSON "https://goodreads-api.now.sh" }}
+  <h1>Book Recommendations</h1>
+  <p>
+    I have read a lot of books. But these {{ len $books }} books are my favourites and which i would like to recommend.
+  </p>
   <ul class="books">
     {{ range $books }}
     <li>
-      {{ $url := index .image_url 0 }}
-      {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
+      {{ $url := index .image_url 0 }} {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
       <img src="{{ $url }}" alt="{{ $slicedTitle }}" />
       <h2>{{ $slicedTitle }}</h2>
       {{ $authors := index .authors 0 }} {{ range $authors }} {{ range . }}
