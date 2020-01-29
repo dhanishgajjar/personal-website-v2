@@ -6,4 +6,4 @@ sectionPage = "mainmenu"
 [caches]
 [caches.getjson]
 dir = ":cacheDir/:project/layouts/books/"
-maxAge = "10h"
+maxAge = "10s"
