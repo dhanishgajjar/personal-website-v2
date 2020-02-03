@@ -1,7 +1,7 @@
 ---
-title: "Reading"
+title: "Books"
 menu:
   mainmenu:
-    title: "My recommended books"
-    weight: 05
+    title: "Some of my favourite books that I have read"
+    weight: 04
 ---

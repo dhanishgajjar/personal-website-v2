@@ -3,7 +3,7 @@ title: "Uses"
 menu:
   mainmenu:
     title: "Setup and all the stuff that I use"
-    weight: 04
+    weight: 05
 ---
 # Uses
 
