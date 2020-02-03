@@ -33,17 +33,16 @@
     text-decoration: none;
   }
   .card {
-    background-color: white;
     border: 1px solid transparent;
     display: flex;
     flex-direction: column;
-    padding: 30px;
+    padding: 10px;
     @media (min-width: 992px) {
       height: 100%;
-      min-height: 250px;
+      min-height: 200px;
     }
     &:hover {
-      border: 1px solid black;
+      border: 1px dashed black;
     }
     h2 {
       font-size: 21px;

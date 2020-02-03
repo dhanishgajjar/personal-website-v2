@@ -3,11 +3,15 @@ footer {
   font-weight: 400;
   padding: 60px 0;
   max-width: 992px;
+  text-align: center;
   width: 100%;
   a,
   a:link,
   a:visited,
   a:active {
     text-decoration: underline;
+  }
+  @media (min-width: 992px) {
+    text-align: initial;
   }
 }

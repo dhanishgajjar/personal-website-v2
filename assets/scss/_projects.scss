@@ -3,18 +3,17 @@
   grid-template-columns: 1fr;
   grid-gap: 40px;
   li {
-    background-color: white;
     display: grid;
     grid-template-areas:
       "title"
       "summary"
       "buttons";
-    padding: 20px;
     place-items: center;
     h2 {
       grid-area: title;
       margin: 0;
       padding: 0;
+      text-align: center;
     }
     p {
       grid-area: summary;
@@ -47,8 +46,7 @@
         "title buttons"
         "summary buttons";
       place-items: initial;
-      padding: 40px;
-      p {
+      h2, p {
         text-align: initial;
       }
     }
