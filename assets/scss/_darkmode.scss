@@ -128,6 +128,13 @@
   .books {
     li {
       background-color: #222;
+      a {
+        border-color: white;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
+      }
     }
   }
 }

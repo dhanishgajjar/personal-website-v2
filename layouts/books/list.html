@@ -3,18 +3,22 @@
   {{ $books := getJSON "https://goodreads-api.now.sh" }}
   <h1>Book Recommendations</h1>
   <p>
-    I have read a lot of books. But these {{ len $books }} books are my favourites and which i would like to recommend.
+    I have read a lot of books. But these {{ len $books }} books are my favourites and which I would like to recommend.
   </p>
   <ul class="books">
     {{ range $books }}
+    {{ $url := index .image_url 0 }}
+    {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
     <li>
-      {{ $url := index .image_url 0 }}
-      {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
       <img src="{{ $url }}" alt="{{ $slicedTitle }}" />
       <h2>{{ $slicedTitle }}</h2>
-      {{ $authors := index .authors 0 }} {{ range $authors }} {{ range . }}
+      {{ $authors := index .authors 0 }}
+      {{ range $authors }}
+      {{ range . }}
       <h3>by {{ index .name 0 }}</h3>
-      {{ end }} {{ end }}
+      {{ end }}
+      {{ end }}
+      <a href="http://www.bookdepository.com/book/{{ index .isbn13 0 }}/?a_aid=tripprblog">Buy</a>
     </li>
     {{ end }}
   </ul>
