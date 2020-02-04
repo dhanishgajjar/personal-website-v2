@@ -1,5 +1,5 @@
 {{ define "content" }} {{ partial "navigation" . }}
-<div class="container">
+<ul class="container">
   <h1>Recommended Courses</h1>
   <ul class="courses">
     {{ range .Pages }}
@@ -8,7 +8,7 @@
         <a href="{{ .Params.courseURL }}">{{ .Title }}</a>{{ if eq .Params.status "free"}} <span>free</span> {{ end }}
       </h2>
       <p>
-        {{ .Params.desc | truncate 160 }}
+        {{ .Params.desc | truncate 200 }}
       </p>
       <h4>Course by <a href="{{.Params.authorURL}}" target="_blank">{{ .Params.author }}</a></h4>
       <a class="button" href="{{ .Params.courseURL }}" target="_blank">Course Landing Page →</a>

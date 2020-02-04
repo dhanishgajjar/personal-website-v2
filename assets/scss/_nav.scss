@@ -1,14 +1,13 @@
 nav {
   align-items: center;
   background-color: white;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #efefef;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
     "togglebutton logo"
     "navigation navigation";
   padding: 20px 0 0 0;
-  margin-bottom: 20px;
   width: 100%;
   button {
     background: none;
@@ -120,7 +119,6 @@ nav {
   @media (min-width: 992px) {
     display: flex;
     justify-content: space-between;
-    margin-bottom: 30px;
     max-width: 992px;
     position: sticky;
     top: 0;

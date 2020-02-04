@@ -1,0 +1,29 @@
+.tags {
+  grid-area: tags;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  li {
+    border: 1px solid slategray;
+    margin: 0 5px 5px 0;
+    overflow: hidden;
+    a {
+      color: black;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 10px 10px 0;
+      span {
+        background-color: slategray;
+        color: white;
+        display: inline-block;
+        padding: 5px 10px;
+        margin: 0 10px 0 0;
+      }
+      &:hover,
+      &.active {
+        background-color: black;
+        color: white;
+      }
+    }
+  }
+}

@@ -33,13 +33,14 @@ body {
 
 .container {
   max-width: 992px;
-  padding: 10px;
+  padding: 0 10px;
   width: 100%;
 }
 
 @import "nav.scss";
 @import "home.scss";
 @import "social.scss";
+@import "tags.scss";
 @import "projects.scss";
 @import "blog.scss";
 @import "courses.scss";

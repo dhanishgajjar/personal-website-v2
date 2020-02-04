@@ -1,4 +1,5 @@
-{{ define "content" }} {{ partial "navigation" . }}
+{{ define "content" }}
+{{ partial "navigation" . }}
 <div class="container">
   {{ $books := getJSON "https://goodreads-api.now.sh" }}
   <h1>Book Recommendations</h1>

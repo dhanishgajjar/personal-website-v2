@@ -1,16 +1,16 @@
 {{ define "content" }}
 {{ partial "navigation" . }}
 <div class="container blogs">
-  <div class="tags">
-    <ul>
-      {{ $currentPage := . }}
-      <li><a class="{{if eq $currentPage.Title "Blog" }} active{{end}}"href="/blog/"><span>{{ len (where .Site.RegularPages "Section" "blog") }}</span>all</a></li>
-      
-      {{ range .Site.Taxonomies.tags }}
-      <li><a class="{{if eq $currentPage.Title .Page.Title}} active{{end}}" href="{{ .Page.Permalink }}"><span>{{ .Count }}</span>{{ .Page.Title }}</a></li>
-      {{ end }}
-    </ul>
-  </div>
+
+  <ul class="tags">
+    {{ $currentPage := . }}
+    <li><a class="{{if eq $currentPage.Title "Blog" }} active{{end}}"href="/blog/"><span>{{ len (where .Site.RegularPages "Section" "blog") }}</span>all</a></li>
+    
+    {{ range .Site.Taxonomies.tags  }}
+    <li><a class="{{if eq $currentPage.Title .Page.Title}} active{{end}}" href="{{ .Page.Permalink }}"><span>{{ .Count }}</span>{{ .Page.Title }}</a></li>
+    {{ end }}
+  </ul>
+
   <div class="articles">
     {{ range (.Paginator 10).Pages }}
     <a href="{{.Permalink}}">

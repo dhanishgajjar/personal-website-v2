@@ -43,7 +43,7 @@
       color: black;
       background: white;
     }
-    border-bottom: 1px solid #333;
+    border-color: #222;
   }
 
   .cards .card {
@@ -59,21 +59,18 @@
     }
   }
 
-  .blogs {
-    .tags {
-      ul {
-        li {
-          a {
-            color: white;
-            &:hover,
-            &.active {
-              background-color: white;
-              color: black;
-            }
-          }
+  .tags {
+    li {
+      a {
+        color: white;
+        &:hover,
+        &.active {
+          background-color: white;
+          color: black;
         }
       }
     }
+
     .articles {
       a,
       a:link,
