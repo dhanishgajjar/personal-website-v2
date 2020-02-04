@@ -25,10 +25,13 @@ body {
   line-height: 1.5;
   letter-spacing: 0.5px;
   margin: 0;
-  padding: 0 10px;
+  padding: 0 20px;
   place-items: center;
   @media (min-width: 992px) {
     padding: 0 100px;
+  }
+  @media (max-width: 320px) {
+    padding: 0 10px;
   }
 }
 
