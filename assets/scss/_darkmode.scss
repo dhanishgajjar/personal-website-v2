@@ -46,16 +46,15 @@
     border-color: #222;
   }
 
-  .cards .card {
-    border-color: #666;
-    @media (min-width: 992px) {
-      border-color: transparent;
-    }
-    &:hover {
-      border: 1px dashed #666;
-    }
-    p:before {
-      background: #444;
+  .cards {
+    .card {
+      background-color: #222;
+      &:hover {
+        border-color: #444;
+      }
+      p:before {
+        background: #444;
+      }
     }
   }
 
@@ -70,19 +69,18 @@
         }
       }
     }
+  }
 
-    .articles {
-      a,
-      a:link,
-      a:visited,
-      a:active {
-        border-color: #666;
-        @media (min-width: 992px) {
-          border-color: transparent;
-        }
-        &:hover {
-          border-color: #666;
-        }
+  .blogs .articles {
+    article {
+      background-color: #222;
+    }
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      &:hover {
+        border-color: #444;
       }
     }
   }
@@ -103,6 +101,7 @@
 
   .projects {
     li {
+      background-color: #222;
       .buttons {
         a,
         a:link,
@@ -120,7 +119,7 @@
 
   .books {
     li {
-      border-color: #666;
+      background-color: #222;
       a {
         border-color: white;
         &:hover {
@@ -132,14 +131,17 @@
   }
 
   .courses {
-    h2 span {
-      color: black;
-    }
-    .button {
-      border-color: white;
-      &:hover {
-        background-color: white;
+    li {
+      background-color: #222;
+      h2 span {
         color: black;
+      }
+      .button {
+        border-color: white;
+        &:hover {
+          background-color: white;
+          color: black;
+        }
       }
     }
   }

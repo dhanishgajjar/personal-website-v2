@@ -4,7 +4,7 @@ summary: "A quick 1 hour intro to the super fast, super fun static website gener
 date: 2020-01-13T12:02:19Z
 draft: false
 description: "This is meta content customized"
-tags: ["gohugo"]
+tags: ["hugo"]
 ---
 
 Lorem ipsum dolor amet kinfolk pitchfork man braid woke williamsburg disrupt ennui shoreditch leggings VHS crucifix live-edge occupy ethical. Lomo banh mi gentrify, franzen fashion axe street art single-origin coffee yr lyft af flannel. Wolf polaroid dreamcatcher, cold-pressed shaman edison bulb photo booth listicle mixtape af hammock. Occupy green juice brunch forage.

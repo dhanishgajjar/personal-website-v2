@@ -1,35 +1,42 @@
 .courses {
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  h2 span {
-    background-color: springgreen;
-    border: 2px solid rgba(0, 0, 0, 0.3);
-    border-radius: 3px;
-    display: inline-block;
-    font-size: 11px;
-    font-weight: 700;
-    padding: 2px 5px;
-    text-transform: uppercase;
-    transform: translateY(-5px);
+  grid-template-columns: 1fr;
+  @media (min-width: 992px) {
+    grid-template-columns: repeat(2, 1fr);
   }
-  h2,
-  h4 {
-    a,
-    a:link,
-    a:visited,
-    a:active {
-      text-decoration: underline;
+  li {
+    background-color: white;
+    padding: 40px;
+    h2 span {
+      background-color: springgreen;
+      border: 2px solid rgba(0, 0, 0, 0.3);
+      border-radius: 3px;
+      display: inline-block;
+      font-size: 11px;
+      font-weight: 700;
+      padding: 2px 5px;
+      text-transform: uppercase;
+      transform: translateY(-5px);
     }
-  }
-  .button {
-    border: 1px solid black;
-    display: inline-block;
-    margin-top: 10px;
-    padding: 10px 20px;
-    &:hover {
-      background-color: black;
-      color: white;
+    h2,
+    h4 {
+      a,
+      a:link,
+      a:visited,
+      a:active {
+        text-decoration: underline;
+      }
+    }
+    .button {
+      border: 1px solid black;
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      &:hover {
+        background-color: black;
+        color: white;
+      }
     }
   }
 }

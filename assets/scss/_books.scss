@@ -1,14 +1,14 @@
 .books {
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin-top: 30px;
   li {
-    border: 1px dashed #ccc;
+    background-color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 20px 5px;
+    padding: 40px 5px;
     place-items: center;
     img {
       margin-bottom: auto;

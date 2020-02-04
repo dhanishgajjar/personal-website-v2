@@ -22,7 +22,7 @@
   grid-gap: 20px;
   grid-template-columns: 1fr;
   @media (min-width: 992px) {
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   }
   a,
   a:link,
@@ -33,12 +33,12 @@
     text-decoration: none;
   }
   .card {
-    border: 1px dashed #ccc;
+    background-color: white;
+    border: 1px dashed transparent;
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    padding: 40px 20px;
     @media (min-width: 992px) {
-      border: 1px dashed transparent;
       height: 100%;
       min-height: 200px;
       &:hover {

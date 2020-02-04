@@ -1,7 +1,7 @@
 .blogs {
   display: grid;
-  grid-template-columns: 1fr;
   grid-gap: 20px;
+  grid-template-columns: 1fr;
   grid-template-areas:
     "tags"
     "articles";
@@ -10,24 +10,25 @@
   .articles {
     grid-area: articles;
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 40px;
     a,
     a:link,
     a:visited,
     a:active {
-      border: 1px dashed #ccc;
-      box-sizing: content-box;
-      color: black;
-      display: block;
+      border: 1px dashed transparent;
       text-decoration: none;
       @media (min-width: 992px) {
-        border: 1px dashed transparent;
         &:hover {
           border: 1px dashed #ccc;
         }
       }
     }
     article {
+      background-color: white;
+      box-sizing: content-box;
+      color: black;
+      display: block;
+      padding: 40px;
       header {
         h2 {
           margin: 0;

@@ -19,6 +19,7 @@ a:active {
 }
 
 body {
+  background-color: #efefef;
   display: grid;
   font-family: "IBM Plex Mono", monospace;
   line-height: 1.5;
@@ -32,8 +33,8 @@ body {
 }
 
 .container {
+  margin: 0;
   max-width: 992px;
-  padding: 20px 10px 0 10px;
   width: 100%;
 }
 
