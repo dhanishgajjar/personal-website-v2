@@ -28,7 +28,10 @@
       box-sizing: content-box;
       color: black;
       display: block;
-      padding: 40px;
+      padding: 20px;
+      @media (min-width: 992px) {
+        padding: 40px;
+      }
       header {
         h2 {
           margin: 0;

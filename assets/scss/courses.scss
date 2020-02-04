@@ -7,7 +7,10 @@
   }
   li {
     background-color: white;
-    padding: 40px;
+    padding: 20px;
+    @media (min-width: 992px) {
+      padding: 40px;
+    }
     h2 span {
       background-color: springgreen;
       border: 2px solid rgba(0, 0, 0, 0.3);
