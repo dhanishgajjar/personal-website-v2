@@ -47,47 +47,44 @@
   }
 
   .cards .card {
-    background-color: #222;
+    border-color: #666;
+    @media (min-width: 992px) {
+      border-color: transparent;
+    }
     &:hover {
-      border: 1px solid #444;
+      border: 1px dashed #666;
     }
     p:before {
       background: #444;
     }
   }
 
-  .blogs .articles {
-    a,
-    a:link,
-    a:visited,
-    a:active {
-      background: #222;
-    }
-    a:hover {
-      border: 1px solid #444;
-    }
-  }
-
   .blogs {
     .tags {
-      button {
-        border: 1px solid white;
-        color: white;
-        &:active {
-          color: white;
-        }
-      }
       ul {
         li {
-          a,
-          a:link,
-          a:visited,
-          a:active {
+          a {
             color: white;
+            &:hover,
+            &.active {
+              background-color: white;
+              color: black;
+            }
           }
-          span {
-            background: #111;
-          }
+        }
+      }
+    }
+    .articles {
+      a,
+      a:link,
+      a:visited,
+      a:active {
+        border-color: #666;
+        @media (min-width: 992px) {
+          border-color: transparent;
+        }
+        &:hover {
+          border-color: #666;
         }
       }
     }
@@ -109,7 +106,6 @@
 
   .projects {
     li {
-      background-color: #222;
       .buttons {
         a,
         a:link,
@@ -127,13 +123,26 @@
 
   .books {
     li {
-      background-color: #222;
+      border-color: #666;
       a {
         border-color: white;
         &:hover {
           background-color: white;
           color: black;
         }
+      }
+    }
+  }
+
+  .courses {
+    h2 span {
+      color: black;
+    }
+    .button {
+      border-color: white;
+      &:hover {
+        background-color: white;
+        color: black;
       }
     }
   }

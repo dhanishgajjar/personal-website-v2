@@ -19,7 +19,6 @@ a:active {
 }
 
 body {
-  background-color: #efefef;
   display: grid;
   font-family: "IBM Plex Mono", monospace;
   line-height: 1.5;
@@ -34,6 +33,7 @@ body {
 
 .container {
   max-width: 992px;
+  padding: 10px;
   width: 100%;
 }
 
@@ -42,6 +42,7 @@ body {
 @import "social.scss";
 @import "projects.scss";
 @import "blog.scss";
+@import "courses.scss";
 @import "books.scss";
 @import "breadcrums.scss";
 @import "pagination.scss";

@@ -2,10 +2,11 @@
   <span class="home"><a href="/">DG</a></span>
   <button aria-controls="menu" aria-expanded="false"></button>
   <ul id="menu">
-    {{ $currentPage := . }}
+    {{ $current := . }}
     {{ range .Site.Menus.mainmenu }}
+    {{ $topLevel := replace .URL "/" "" }}
     <li>
-      <a class="{{if or ($currentPage.IsMenuCurrent "mainmenu" .) ($currentPage.HasMenuCurrent "mainmenu" .) }} active{{end}}" href="{{ .URL }}" title="{{ .Title }}">{{.Name}}</a>
+      <a class="{{ if eq $current.RelPermalink .URL | or (eq $current.Type $topLevel) | or (and (eq .Name "Blog") (in (slice "taxonomy" "taxonomyTerm") $current.Kind)) }} active{{ end }}" href="{{ .URL }}" title="{{ .Title }}">{{.Name}}</a>
     </li>
     {{ end }}
   </ul>

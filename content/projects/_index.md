@@ -1,5 +1,5 @@
 ---
-title: "Work"
+title: "Projects"
 menu:
   mainmenu:
     title: "Collection of projects done so far, open source and professional"

@@ -2,7 +2,7 @@
 title: "Uses"
 menu:
   mainmenu:
-    title: "Setup and all the stuff that I use"
+    title: "My complete setup and all the other stuff that I use"
     weight: 05
 ---
 # Uses

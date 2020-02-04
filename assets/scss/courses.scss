@@ -1,0 +1,33 @@
+.courses {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  h2 span {
+    background-color: springgreen;
+    border: 2px solid rgba(0, 0, 0, 0.3);
+    display: inline-block;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 2px 5px;
+    transform: translateY(-5px);
+  }
+  h2,
+  h4 {
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      text-decoration: underline;
+    }
+  }
+  .button {
+    border: 1px solid black;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+}
