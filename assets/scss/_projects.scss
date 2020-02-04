@@ -2,22 +2,20 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-gap: 40px;
+  margin-top: 30px;
   li {
     display: grid;
     grid-template-areas:
       "title"
       "summary"
       "buttons";
-    place-items: center;
     h2 {
       grid-area: title;
       margin: 0;
       padding: 0;
-      text-align: center;
     }
     p {
       grid-area: summary;
-      text-align: center;
     }
     .buttons {
       grid-area: buttons;
@@ -45,11 +43,6 @@
       grid-template-areas:
         "title buttons"
         "summary buttons";
-      place-items: initial;
-      h2,
-      p {
-        text-align: initial;
-      }
     }
   }
 }

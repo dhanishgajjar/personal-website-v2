@@ -1,20 +1,10 @@
-{{ define "content" }}
+{{ define "content" }} {{ partial "navigation" . }}
 
-  {{ partial "navigation" . }}
-
-  <div class="container">
-
-  {{ if eq .Page.Section "blog" "work"}}
-  {{ partial "breadcrumbs" . }}
-  {{end}}
-
-  {{ if eq .Page.Section "blog"}}
-    <div class="stats">
-      <span>Word Count:</span> {{ .WordCount }} words | <span>Reading Time:</span> {{ .ReadingTime }}mins
-    </div>
-  {{end}}
-    
-  {{ .Content }}
-  
+<div class="container">
+  {{ if eq .Page.Section "blog" "work"}} {{ partial "breadcrumbs" . }} {{end}} {{ if eq .Page.Section "blog"}}
+  <div class="stats">
+    <span>Word Count:</span> {{ .WordCount }} words | <span>Reading Time:</span> {{ .ReadingTime }}mins
   </div>
+  {{end}} {{ .Content }}
+</div>
 {{ end }}

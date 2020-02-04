@@ -24,7 +24,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.5px;
   margin: 0;
-  padding: 0 30px;
+  padding: 0 10px;
   place-items: center;
   @media (min-width: 992px) {
     padding: 0 100px;
@@ -33,8 +33,13 @@ body {
 
 .container {
   max-width: 992px;
-  padding: 0 10px;
+  padding: 20px 10px 0 10px;
   width: 100%;
+}
+
+.disclaimer {
+  font-size: 12px;
+  margin-top: 30px;
 }
 
 @import "nav.scss";

@@ -1,6 +1,6 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <ul class="container">
-  <h1>Recommended Courses</h1>
+  <h1>{{ .Page.Title }}</h1>
   <ul class="courses">
     {{ range .Pages }}
     <li>
@@ -15,5 +15,6 @@
     </li>
     {{end }}
   </ul>
+  {{ partial "disclaimer" . }}
 </div>
 {{ end }}

@@ -1,6 +1,7 @@
 {{ define "content" }}
 {{ partial "navigation" . }}
 <div class="container">
+  <h1>{{ .Page.Title }}</h1>
   <ul class="projects">
     {{ range .Pages }} {{ .Render "summary"}} {{ end }}
   </ul>
