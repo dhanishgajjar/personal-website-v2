@@ -20,6 +20,12 @@
     color: white;
   }
 
+  ul {
+    li {
+      color: slategray;
+    }
+  }
+
   nav {
     background-color: black;
     span.home,
@@ -28,6 +34,14 @@
     a:visited,
     a:active {
       color: white;
+    }
+    span.home {
+      a,
+      a:link,
+      a:active,
+      a:visited {
+        border-color: #444;
+      }
     }
     button[aria-expanded="false"],
     button[aria-expanded="true"] {
@@ -40,8 +54,9 @@
     span.home a:hover,
     ul li a.active,
     ul li a:hover {
-      color: black;
       background: white;
+      border-color: white;
+      color: black;
     }
     border-color: #111;
   }

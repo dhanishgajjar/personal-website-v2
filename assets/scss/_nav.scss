@@ -107,7 +107,8 @@ nav {
     a:link,
     a:active,
     a:visited {
-      padding: 10px;
+      border: 1px solid #ccc;
+      padding: 5px 10px;
     }
     a:hover {
       background-color: black;

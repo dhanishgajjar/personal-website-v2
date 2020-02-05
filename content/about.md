@@ -6,8 +6,4 @@ menu:
     weight: 06
 ---
 
-# About
-
-## Bio
-
-## Social Media
+# WIP

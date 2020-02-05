@@ -6,24 +6,19 @@
     I have read a lot of books. But these {{ len $books }} books are my favourites and which I would like to recommend.
   </p>
 
-  {{ partial "disclaimer" . }}
-  
   <ul class="books">
-    {{ range sort $books }}
-    {{ $url := index .image_url 0 }}
-    {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
+    {{ range sort $books }} {{ $url := index .image_url 0 }} {{ $slicedTitle := index (split (index .title 0) ":") 0 }}
     <li>
       <h2>{{ $slicedTitle }}</h2>
       <img src="{{ $url }}" alt="{{ $slicedTitle }}" />
-      {{ $authors := index .authors 0 }}
-      {{ range $authors }}
-      {{ range . }}
+      {{ $authors := index .authors 0 }} {{ range $authors }} {{ range . }}
       <h3>by {{ index .name 0 }}</h3>
-      {{ end }}
-      {{ end }}
+      {{ end }} {{ end }}
       <a href="http://www.bookdepository.com/book/{{ index .isbn13 0 }}/?a_aid=tripprblog" target="_blank">Buy</a>
     </li>
     {{ end }}
   </ul>
+
+  {{ partial "disclaimer" . }}
 </div>
 {{ end }}

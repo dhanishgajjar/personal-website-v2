@@ -1,5 +1,5 @@
 ---
 title: "Visual Studio Code Icons"
-summary: "A fantastic project that was about creating flags with just single div and CSS"
+summary: "Collection of VSCode icons inspired from games, movies, tvshows, comics and more"
 projectURL: "https://github.com/dhanishgajjar/vscode-icons"
 ---

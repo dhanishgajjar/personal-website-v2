@@ -1,16 +1,30 @@
 .pagination {
   display: grid;
-  grid-gap: 10px;
+  grid-gap: 20px;
   grid-template-columns: repeat(auto-fit, minmax(20px, 1fr));
   list-style: none;
   padding: 0;
+  place-items: center;
   .page-item {
     a,
     a:link,
     a:visited,
     a:active {
       text-align: center;
-      padding: 5px 0;
+      padding: 10px 15px;
+    }
+    a:hover {
+      background-color: black;
+      color: white;
+    }
+    &.active {
+      a,
+      a:link,
+      a:visited,
+      a:active {
+        background-color: black;
+        color: white;
+      }
     }
   }
 }
