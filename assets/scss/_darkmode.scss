@@ -60,8 +60,13 @@
 
   .tags {
     li {
+      border-color: #444;
       a {
         color: white;
+        span {
+          background-color: #444;
+          color: white;
+        }
         &:hover,
         &.active {
           background-color: white;
