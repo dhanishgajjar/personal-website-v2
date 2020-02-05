@@ -20,11 +20,11 @@
       grid-area: summary;
     }
     .buttons {
+      align-items: flex-start;
       grid-area: buttons;
       display: grid;
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
       grid-gap: 20px;
-      place-items: center;
       a,
       a:link,
       a:visited,

@@ -8,31 +8,29 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    padding: 40px 5px;
+    padding: 20px;
     place-items: center;
     img {
       margin-bottom: auto;
-      height: 140px;
+      height: 100px;
     }
     h2,
     h3 {
       text-align: center;
     }
     h2 {
-      margin: 20px 0;
       font-size: 16px;
     }
     h3 {
-      margin-top: auto;
       font-size: 14px;
       color: #666;
     }
     a {
       border: 1px solid black;
+      max-width: 200px;
       padding: 10px;
       text-align: center;
       transition: background-color 0.3s, color 0.3s;
-      max-width: 200px;
       width: 100%;
       &:hover {
         background-color: black;

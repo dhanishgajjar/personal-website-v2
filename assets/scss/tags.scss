@@ -1,8 +1,9 @@
 .tags {
-  grid-area: tags;
-  width: 100%;
   display: flex;
   flex-wrap: wrap;
+  grid-area: tags;
+  margin: 0;
+  width: 100%;
   li {
     border: 1px solid slategray;
     margin: 0 5px 5px 0;

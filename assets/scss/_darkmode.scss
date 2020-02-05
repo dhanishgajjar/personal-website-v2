@@ -43,12 +43,12 @@
       color: black;
       background: white;
     }
-    border-color: #222;
+    border-color: #111;
   }
 
   .cards {
     .card {
-      background-color: #222;
+      background-color: #111;
       &:hover {
         border-color: #444;
       }
@@ -73,7 +73,7 @@
 
   .blogs .articles {
     article {
-      background-color: #222;
+      background-color: #111;
     }
     a,
     a:link,
@@ -101,7 +101,7 @@
 
   .projects {
     li {
-      background-color: #222;
+      background-color: #111;
       .buttons {
         a,
         a:link,
@@ -119,7 +119,7 @@
 
   .books {
     li {
-      background-color: #222;
+      background-color: #111;
       a {
         border-color: white;
         &:hover {
@@ -132,7 +132,7 @@
 
   .courses {
     li {
-      background-color: #222;
+      background-color: #111;
       h2 span {
         color: black;
       }
