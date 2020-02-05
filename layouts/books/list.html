@@ -6,6 +6,8 @@
     I have read a lot of books. But these {{ len $books }} books are my favourites and which I would like to recommend.
   </p>
 
+  {{ partial "disclaimer" . }}
+  
   <ul class="books">
     {{ range sort $books }}
     {{ $url := index .image_url 0 }}
@@ -23,6 +25,5 @@
     </li>
     {{ end }}
   </ul>
-  {{ partial "disclaimer" . }}
 </div>
 {{ end }}
