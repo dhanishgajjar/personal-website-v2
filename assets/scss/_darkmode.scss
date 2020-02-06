@@ -65,21 +65,21 @@
     .card {
       background-color: #111;
       &:hover {
-        border-color: #444;
+        border-color: slategray;
       }
       p:before {
-        background: #444;
+        background: slategray;
       }
     }
   }
 
   .tags {
     li {
-      border-color: #444;
+      border-color: slategray;
       a {
         color: white;
         span {
-          background-color: #444;
+          background-color: slategray;
           color: white;
         }
         &:hover,
@@ -100,7 +100,7 @@
     a:visited,
     a:active {
       &:hover {
-        border-color: #444;
+        border-color: slategray;
       }
     }
   }

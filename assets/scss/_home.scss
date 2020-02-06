@@ -42,7 +42,7 @@
       height: 100%;
       min-height: 200px;
       &:hover {
-        border: 1px dashed #ccc;
+        border: 1px dashed slategray;
       }
     }
     h2 {
@@ -52,11 +52,12 @@
       text-transform: capitalize;
     }
     p {
+      color: slategray;
       font-size: 16px;
       margin-top: 40px;
       position: relative;
       &:before {
-        background-color: black;
+        background-color: slategray;
         content: "";
         height: 1px;
         position: absolute;

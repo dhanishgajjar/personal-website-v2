@@ -11,8 +11,9 @@
     padding: 20px;
     place-items: center;
     img {
-      margin-bottom: auto;
+      border: 1px solid #ccc;
       height: 100px;
+      margin-bottom: auto;
     }
     h2,
     h3 {
@@ -23,7 +24,7 @@
     }
     h3 {
       font-size: 14px;
-      color: #666;
+      color: slategray;
     }
     a {
       border: 1px solid black;
