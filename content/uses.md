@@ -9,29 +9,28 @@ menu:
 
 ## Desk Setup
 ---
-### Machine
+### Macbook Pro
 
-- Macbook Pro 16" (2019)
+- 16" (2019)
 - 2.3Ghz 8-core 9th-generation Intel Core i9 processor
 - AMD Radeon Pro 5500M with 4GB of GDDR6 memory
 - 32 GB 2667Mhz DDR4 memory 
 - 1 TB Apple SSD
 - Intel UHD Graphics 630
 
-### Monitor
+### That gray thing under my monitor 
+- Caldigit TS3+
+
+### Monitor 
 - Dell U2515H
-
-### Keyboard
+### Keyboard 
 - Apple Magic Keyboard with Numeric Keypad - Space Gray
-
-### Mouse
+### Mouse 
 - Logitech Mx Master 2S
-### Headphones
+### Headphones 
 - Bose NC 700
-
-### Webcam
+### Webcam 
 - Logitech C922 Pro
-
 ### Plant
 - IKEA Fejka
 ---
