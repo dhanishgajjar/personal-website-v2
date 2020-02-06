@@ -21,10 +21,10 @@ menu:
 
 ### Thunderbolt 3 Dock
 
-- Caldigit TS3+
+- [Caldigit TS3+](https://amzn.to/2Owr4a4)
 
 ### Monitor
-- Dell U2515H
+- [Dell U2515H](https://amzn.to/31wEng4)
 
 ### Keyboard
 
@@ -32,15 +32,15 @@ menu:
 
 ### Mouse
 
-- Logitech Mx Master 2S
+- [Logitech Mx Master 2S](https://amzn.to/2vUecUR)
 
 ### Headphones
 
-- Bose NC 700
+- [Bose NC 700](https://amzn.to/31HuQTL)
 
 ### Webcam
 
-- Logitech C922 Pro
+- [Logitech C922 Pro](https://amzn.to/3960Cw2)
 
 ### Plant
 
@@ -49,10 +49,10 @@ menu:
 ## Devices
 
 - iPhone X
-- iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil
+- [iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil](https://amzn.to/3bkpSQS)
 
 ## Camera
 
-- Nikon D5500
+- [Nikon D5500](https://amzn.to/373idTX)
 - 18 - 55mm kit lens
 - 55 - 200mm
