@@ -1,4 +1,17 @@
 .uses {
+  h2 {
+    position: relative;
+    width: max-content;
+    &:after {
+      background: slategray;
+      bottom: -10px;
+      content: "";
+      height: 2px;
+      left: 0;
+      position: absolute;
+      width: calc(100% + 50px);
+    }
+  }
   ul {
     margin-left: 0;
     padding-left: 20px;

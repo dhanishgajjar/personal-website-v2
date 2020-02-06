@@ -2,7 +2,8 @@
 {{ partial "navigation" . }}
 
 <div class="container">
-  <div class="{{ .Title | lower }}">
+  {{ $section_title := .Site.GetPage "section" .Section }}
+  <div class="{{ with $section_title }}{{ .Title | lower }}{{ end }}">
     {{ if eq .Page.Section "blog" "work" "projects"}}
     {{ partial "breadcrumbs" . }}
     {{end}}

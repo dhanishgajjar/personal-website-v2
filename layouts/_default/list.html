@@ -4,7 +4,6 @@
   <h1>{{ .Page.Title | title }}</h1>
 
   <div class="blogs">
-    
     <ul class="tags">
       {{ $currentPage := . }}
       <li><a class="{{if eq $currentPage.Title "Blog" }} active{{end}}"href="/blog/"><span>{{ len (where .Site.RegularPages "Section" "blog") }}</span>all</a></li>
