@@ -38,10 +38,12 @@
         text-decoration: underline;
       }
     }
+    p {
+      min-height: 160px;
+    }
     .button {
       border: 1px solid black;
       display: inline-block;
-      margin-top: 10px;
       padding: 10px 20px;
       &:hover {
         background-color: black;

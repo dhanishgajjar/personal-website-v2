@@ -6,4 +6,5 @@ menu:
     weight: 06
 ---
 
-# WIP
+# About
+
