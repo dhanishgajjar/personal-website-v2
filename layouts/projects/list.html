@@ -1,11 +1,8 @@
-{{ define "content" }}
-{{ partial "navigation" . }}
+{{ define "content" }} {{ partial "navigation" . }}
 <div class="container">
   <h1>{{ .Page.Title }}</h1>
   <ul class="projects">
-    {{ range (.Paginator 10).Pages }}
-      {{ .Render "summary"}}
-    {{ end }}
+    {{ range (.Paginator 10).Pages }} {{ .Render "summary"}} {{ end }}
   </ul>
   {{ template "_internal/pagination.html" . }}
 </div>

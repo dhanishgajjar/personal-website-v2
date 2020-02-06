@@ -1,28 +1,4 @@
-.blog {
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6,
-  p,
-  span {
-    // font-family: "Open Sans", sans-serif;
-  }
-  p {
-    @media (min-width: 992px) {
-      font-size: 21px;
-    }
-  }
-  .stats {
-    span {
-      font-family: "IBM Plex Mono", monospace;
-      font-weight: 600;
-    }
-  }
-}
-
-.blogs {
+.blog-list {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr;
@@ -71,6 +47,20 @@
           margin-left: 0px;
         }
       }
+    }
+  }
+}
+
+.blog {
+  p {
+    @media (min-width: 992px) {
+      font-size: 21px;
+    }
+  }
+  .stats {
+    span {
+      font-family: "IBM Plex Mono", monospace;
+      font-weight: 600;
     }
   }
 }

@@ -2,7 +2,7 @@
 {{ partial "navigation" . }}
 
 <div class="container">
-  <div class="{{.Page.Title | lower }}">
+  <div class="blog">
     {{ if eq .Page.Section "blog" "work" "projects"}}
     {{ partial "breadcrumbs" . }}
     {{end}}
