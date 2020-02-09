@@ -14,16 +14,17 @@ menu:
 
 - 16" (2019)
 - 2.3Ghz 8-core 9th-generation Intel Core i9 processor
+- Intel UHD Graphics 630
 - AMD Radeon Pro 5500M with 8GB of GDDR6 memory
 - 32 GB 2667Mhz DDR4 memory
 - 1 TB Apple SSD
-- Intel UHD Graphics 630
 
 ### Thunderbolt 3 Dock
 
 - [Caldigit TS3+](https://amzn.to/2Owr4a4)
 
 ### Monitor
+
 - [Dell U2515H](https://amzn.to/31wEng4)
 
 ### Keyboard

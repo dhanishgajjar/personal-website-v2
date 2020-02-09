@@ -42,6 +42,13 @@ body {
   margin: 30px 0;
 }
 
+.about p {
+  color: slategray;
+  @media (min-width: 992px) {
+    font-size: 21px;
+  }
+}
+
 @import "nav.scss";
 @import "home.scss";
 @import "social.scss";
