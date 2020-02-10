@@ -1,16 +1,6 @@
 .uses {
   h2 {
-    position: relative;
-    width: max-content;
-    &:after {
-      background: slategray;
-      bottom: -10px;
-      content: "";
-      height: 2px;
-      left: 0;
-      position: absolute;
-      width: calc(100% + 50px);
-    }
+    border-bottom: 2px solid slategray;
   }
   ul {
     margin-left: 0;
