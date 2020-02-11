@@ -7,12 +7,14 @@
   </p>
 
   <ul class="books">
-    {{ range sort $books }}
+    {{ range sort $books }} {{ $slicedTitle := index (split .title ":") 0 }}
     <li>
-      <h2>{{ .title }}</h2>
+      <h2>{{ $slicedTitle }}</h2>
       <img src="{{ .thumbnail }}" alt="{{ .title }}" />
       <h3>by {{ .author }}</h3>
-      <a href="http://www.bookdepository.com/book/{{ .isbn }}/?a_aid=tripprblog" target="_blank">Buy</a>
+      <a href="http://www.bookdepository.com/search?searchTerm={{ $slicedTitle }}&a_aid=tripprblog" target="_blank"
+        >Buy</a
+      >
     </li>
     {{ end }}
   </ul>

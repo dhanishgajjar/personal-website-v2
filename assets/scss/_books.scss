@@ -13,7 +13,7 @@
     img {
       border: 1px solid #ccc;
       height: 160px;
-      margin-top: auto;
+      margin: 20px 0;
     }
     h2,
     h3 {
@@ -21,6 +21,7 @@
     }
     h2 {
       font-size: 16px;
+      min-height: 60px;
     }
     h3 {
       font-size: 14px;
