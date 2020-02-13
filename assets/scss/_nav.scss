@@ -8,7 +8,10 @@ nav {
     "togglebutton logo"
     "navigation navigation";
   padding: 20px 0 0 0;
+  position: sticky;
+  top: 0;
   width: 100%;
+  z-index: 1;
   button {
     background: none;
     border: none;
@@ -121,9 +124,6 @@ nav {
     display: flex;
     justify-content: space-between;
     max-width: 992px;
-    position: sticky;
-    top: 0;
-    z-index: 1;
     button {
       display: none;
     }
