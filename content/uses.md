@@ -8,6 +8,12 @@ menu:
 
 # Uses
 
+## Editor
+
+- Visual Studio Code
+- SynthWave '84 Theme
+- Operator Mono Font
+
 ## Desk Setup
 
 ### Macbook Pro
@@ -21,11 +27,11 @@ menu:
 
 ### Thunderbolt 3 Dock
 
-- [Caldigit TS3+](https://amzn.to/2Owr4a4)
+- Caldigit TS3+
 
 ### Monitor
 
-- [Dell U2515H](https://amzn.to/31wEng4)
+- Dell U2515H
 
 ### Keyboard
 
@@ -33,15 +39,15 @@ menu:
 
 ### Mouse
 
-- [Logitech Mx Master 2S](https://amzn.to/2vUecUR)
+- Logitech Mx Master 2S
 
 ### Headphones
 
-- [Bose NC 700](https://amzn.to/31HuQTL)
+- Bose NC 700
 
 ### Webcam
 
-- [Logitech C922 Pro](https://amzn.to/3960Cw2)
+- Logitech C922 Pro
 
 ### Plant
 
@@ -50,10 +56,10 @@ menu:
 ## Devices
 
 - iPhone X
-- [iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil](https://amzn.to/3bkpSQS)
+- iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil
 
 ## Camera
 
-- [Nikon D5500](https://amzn.to/373idTX)
+- Nikon D5500
 - 18 - 55mm kit lens
 - 55 - 200mm
