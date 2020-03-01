@@ -33,6 +33,10 @@ menu:
 
 - Dell U2515H
 
+### Webcam
+
+- Logitech C922 Pro
+
 ### Keyboard
 
 - Apple Magic Keyboard with Numeric Keypad - Space Gray
@@ -40,18 +44,6 @@ menu:
 ### Mouse
 
 - Logitech Mx Master 2S
-
-### Headphones
-
-- Bose NC 700
-
-### Webcam
-
-- Logitech C922 Pro
-
-### Plant
-
-- IKEA Fejka
 
 ## Devices
 
@@ -63,3 +55,11 @@ menu:
 - Nikon D5500
 - 18 - 55mm kit lens
 - 55 - 200mm
+
+### Headphones
+
+- Bose NC 700
+
+### Plant
+
+- IKEA Fejka
