@@ -1,6 +1,6 @@
 baseURL = "https://keen-swanson-bf10fd.netlify.com/"
 languageCode = "en-us"
-title = "Developer based in Lisbon Portugal"
+title = "Lisbon-based Developer"
 sectionPage = "mainmenu"
 
 [caches]
