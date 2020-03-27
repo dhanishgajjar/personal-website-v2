@@ -49,6 +49,7 @@ menu:
 
 - iPhone X
 - iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil
+- [Paperlike on the iPad](http://paper.me/dhanish)
 
 ## Camera
 
