@@ -16,6 +16,14 @@ menu:
 
 ## Desk Setup
 
+### Desk
+
+- [Autonomous SmartDesk 2 Premium, use 'DhanishGajjar' coupon code to get 10% off](https://www.autonomous.ai)
+
+### Chair
+
+- IKEA HATTEFJÄLL, Grey White
+
 ### Macbook Pro
 
 - 16" (2019)
@@ -49,7 +57,7 @@ menu:
 
 - iPhone X
 - iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil
-- [Paperlike on the iPad](http://paper.me/dhanish)
+- [Paperlike on the iPad](https://paper.me/dhanish)
 
 ## Camera
 
