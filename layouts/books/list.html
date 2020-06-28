@@ -10,7 +10,7 @@
     {{ range sort $books }}
     <li>
       <h2>{{ .title }}</h2>
-      <img src="/thumbnails/{{ .title | urlize }}.jpg" alt="{{ .title }}" />
+      <img src="/thumbnails/{{ .title | urlize }}.webp" alt="{{ .title }}" />
       <h3>by {{ .author }}</h3>
     </li>
     {{ end }}
