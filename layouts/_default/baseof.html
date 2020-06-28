@@ -19,7 +19,7 @@
     {{ $style := resources.Get "scss/style.scss" | resources.ToCSS $options }}
 
     <link rel="stylesheet" href="{{ $style.Permalink }}" />
-
+    
     <link rel="shortcut icon" type="image/png" href="/favicon.png" />
 
     <style>
@@ -33,6 +33,6 @@
     </title>
   </head>
   <body>
-    {{ block "content" . }} {{ end }} {{ partial "footer" . }}
-  </body>
-</html>
+    {{ block "content" . }} {{ end }}
+  
+  {{ partial "footer" . }}
