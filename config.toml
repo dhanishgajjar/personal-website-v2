@@ -1,4 +1,5 @@
 baseURL = "https://keen-swanson-bf10fd.netlify.com/"
+canonifyURLs = true
 languageCode = "en-us"
 title = "Lisbon-based Developer"
 sectionPage = "mainmenu"
