@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <meta name="description" content="" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,600,700&display=swap"
+      as="style"
+    />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,500,600,700&display=swap" />
+
+    
+    
+
+    <link rel="stylesheet" href="https://dhanishgajjar.com/style.css" />
+    
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+
+    <style>
+      body {
+        font-family: "IBM Plex Mono", monospace;
+      }
+    </style>
+
+    <title>
+       Dhanish Gajjar - CSS Grid 
+    </title>
+  </head>
+  <body>
+    
+<nav>
+  <span class="home"><a href="/">DG</a></span>
+  <button aria-controls="menu" aria-expanded="false"></button>
+  <ul id="menu">
+    
+    
+    
+    <li>
+      <a class="" href="/projects/" title="Collection of projects done so far, open source and professional">Projects</a>
+    </li>
+    
+    
+    <li>
+      <a class="" href="/blog/" title="Tutorials, tips and tricks, code samples">Blog</a>
+    </li>
+    
+    
+    <li>
+      <a class=" active" href="/courses/" title="Best courses by amazing developers that I can recommend">Courses</a>
+    </li>
+    
+    
+    <li>
+      <a class="" href="/books/" title="Some of my favourite books that I have read">Books</a>
+    </li>
+    
+    
+    <li>
+      <a class="" href="/uses/" title="My complete setup and all the other stuff that I use">Uses</a>
+    </li>
+    
+    
+    <li>
+      <a class="" href="/about/" title="About me, social media links, and how to get in touch with me">About</a>
+    </li>
+    
+  </ul>
+</nav>
+
+
+<div class="container">
+  <div class="css grid">
+    
+    
+    
+  </div>
+</div>
+
+  
+    <footer>
+    Built with <a href="https://gohugo.io" target="_blank" rel="noreferrer">Hugo</a> &amp; Proudly hosted on <a href="https://netlify.com" target="_blank" rel="noreferrer">Netlify</a>
+  </footer>
+
+  <script>
+    const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
+
+    function toggleNav() {
+      const expanded = this.getAttribute("aria-expanded") === "true" || false;
+      this.setAttribute("aria-expanded", !expanded);
+    }
+
+    navButtons.map(button => {
+      button.addEventListener("click", toggleNav);
+    });
+    
+  </script>
+  </body>
+</html>

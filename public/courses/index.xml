@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses on Lisbon-based Developer</title>
+    <link>https://dhanishgajjar.com/courses/</link>
+    <description>Recent content in Courses on Lisbon-based Developer</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    
+	<atom:link href="https://dhanishgajjar.com/courses/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Advanced React</title>
+      <link>https://dhanishgajjar.com/courses/advanced-react/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/advanced-react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beginner JavaScript</title>
+      <link>https://dhanishgajjar.com/courses/beginner-javascript/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/beginner-javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSS Grid</title>
+      <link>https://dhanishgajjar.com/courses/css-grid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/css-grid/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ES6 for Everyone</title>
+      <link>https://dhanishgajjar.com/courses/es6/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/es6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Learn Node</title>
+      <link>https://dhanishgajjar.com/courses/learn-node/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/learn-node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React for Beginners</title>
+      <link>https://dhanishgajjar.com/courses/react-for-beginners/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/react-for-beginners/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>What The Flexbox?!</title>
+      <link>https://dhanishgajjar.com/courses/what-the-flexbox/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://dhanishgajjar.com/courses/what-the-flexbox/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
