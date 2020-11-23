@@ -55,7 +55,7 @@ menu:
 
 ## Devices
 
-- iPhone X
+- iPhone 12 Pro Max
 - iPad Pro 2018 with Smart Folio Keyboard & Apple Pencil
 - [Paperlike on the iPad](https://paper.me/dhanish)
 
