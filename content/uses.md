@@ -1,8 +1,8 @@
 ---
-title: "Uses"
+title: 'Uses'
 menu:
   mainmenu:
-    title: "My complete setup and all the other stuff that I use"
+    title: 'My complete setup and all the other stuff that I use'
     weight: 05
 ---
 
@@ -47,7 +47,7 @@ menu:
 
 ### Keyboard
 
-- Apple Magic Keyboard with Numeric Keypad - Space Gray
+- Keychron K6
 
 ### Mouse
 
