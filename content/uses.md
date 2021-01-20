@@ -18,7 +18,7 @@ menu:
 
 ### Desk
 
-- [Autonomous SmartDesk 2 Premium, use 'DhanishGajjar' coupon code to get 10% off](https://www.autonomous.ai)
+- [Autonomous SmartDesk 2 Premium, use 'DhanishGajjar' coupon code to get 8% off](https://www.autonomous.ai)
 
 ### Chair
 
@@ -47,7 +47,7 @@ menu:
 
 ### Keyboard
 
-- Keychron K6
+- Logitech MX Keys
 
 ### Mouse
 
