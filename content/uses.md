@@ -39,7 +39,7 @@ menu:
 
 ### Monitor
 
-- LG 32uk550-B UHD 4K
+- DELL U2515H
 
 ### Webcam
 
