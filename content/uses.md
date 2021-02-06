@@ -39,7 +39,7 @@ menu:
 
 ### Monitor
 
-- DELL U2515H
+- Dell Ultrasharp U2515H
 
 ### Webcam
 
