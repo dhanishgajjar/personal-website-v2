@@ -5,8 +5,8 @@ nav {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-template-areas:
-    "togglebutton logo"
-    "navigation navigation";
+    'togglebutton logo'
+    'navigation navigation';
   padding: 20px 0 0 0;
   position: sticky;
   top: 0;
@@ -24,13 +24,13 @@ nav {
     position: relative;
     width: 30px;
   }
-  button[aria-expanded="false"],
-  button[aria-expanded="true"] {
+  button[aria-expanded='false'],
+  button[aria-expanded='true'] {
     &:before,
     &:after {
       background: black;
       bottom: 0;
-      content: "";
+      content: '';
       height: 2px;
       left: 0;
       margin: auto;
@@ -42,7 +42,7 @@ nav {
     }
   }
 
-  button[aria-expanded="false"] {
+  button[aria-expanded='false'] {
     &:before {
       transform: translateY(-5px) rotate3d(0, 0, 0, 45deg);
     }
@@ -51,7 +51,7 @@ nav {
     }
   }
 
-  button[aria-expanded="true"] {
+  button[aria-expanded='true'] {
     &:before {
       transform: translateY(0px) rotate3d(0, 0, 1, 45deg);
     }
@@ -92,7 +92,7 @@ nav {
     }
   }
 
-  [aria-expanded="true"] ~ ul {
+  [aria-expanded='true'] ~ ul {
     height: 350px;
     li {
       opacity: 1;
