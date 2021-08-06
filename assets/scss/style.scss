@@ -23,11 +23,8 @@ body {
   display: grid;
   line-height: 1.75;
   margin: 0;
-  padding: 0 20px;
+  padding: 1.5rem;
   place-items: center;
-  @media (min-width: 992px) {
-    padding: 0 100px;
-  }
 }
 
 .container {
