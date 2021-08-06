@@ -25,4 +25,3 @@ menu:
 
 - iPhone 12 Pro Max
 - iPad Pro 2018 with Magic Keyboard & Apple Pencil
-- [Paperlike on the iPad](https://paper.me/dhanish)
