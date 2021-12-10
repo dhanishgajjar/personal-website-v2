@@ -11,17 +11,32 @@ menu:
 ## Editor
 
 - Visual Studio Code
-- SynthWave '84 Theme
+- Dracula Theme
 - Operator Mono Font
-### Macbook Pro
 
-- 16" (2019)
-- 2.3Ghz 8-core 9th-generation Intel Core i9 processor
-- Intel UHD Graphics 630
-- AMD Radeon Pro 5500M with 8GB of GDDR6 memory
-- 32 GB 2667Mhz DDR4 memory
-- 1 TB Apple SSD
+### Terminal
+
+- Hyper
+- Oh My Zsh with Syntax Highlighting Plugin
+- Spaceship Prompt
+- Dracula theme
+- Droid Sans Mono for Powerline Font
+### Setup
+
+- M1 Macbook Air with 16GB Ram and 512 GB SSD
+- Dell 25" U2515H Monitor
+- Caldigit TS3+ Dock
+- Logitech MX Keys Keyboard
+- Logitech MX Master 3 Mouse
+- Logitech C922 Pro Webcam
+- TwelveSouth Curve Laptop Stand
+
+### Desk
+
+- <a href="https://rb.gy/ppokil" target="_blank">Autonomous Desk</a>
 ## Devices
 
+- AirPods Pro
 - iPhone 12 Pro Max
-- iPad Pro 2018 with Magic Keyboard & Apple Pencil
+- Apple Watch Series 4 - 44mm
+- 11 Inch M1 iPad Pro & Apple Pencil
