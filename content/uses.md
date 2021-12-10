@@ -33,7 +33,7 @@ menu:
 
 ### Desk
 
-- <a href="https://rb.gy/ppokil" target="_blank">Autonomous Desk</a>
+- [Autonomous Desk](https://rb.gy/ppokil)
 ## Devices
 
 - AirPods Pro
