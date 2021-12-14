@@ -1,19 +1,20 @@
-  <footer>
-    Built with <a href="https://gohugo.io" target="_blank" rel="noreferrer">Hugo</a> &amp; Proudly hosted on <a href="https://netlify.com" target="_blank" rel="noreferrer">Netlify</a>
-  </footer>
+<footer>
+  Built with <a href="https://gohugo.io" target="_blank" rel="noreferrer">Hugo</a>
+</footer>
 
-  <script>
-    const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
+<script>
+  const navButtons = [...document.querySelectorAll("button[aria-expanded]")];
 
-    function toggleNav() {
-      const expanded = this.getAttribute("aria-expanded") === "true" || false;
-      this.setAttribute("aria-expanded", !expanded);
-    }
+  function toggleNav() {
+    const expanded = this.getAttribute("aria-expanded") === "true" || false;
+    this.setAttribute("aria-expanded", !expanded);
+  }
 
-    navButtons.map(button => {
-      button.addEventListener("click", toggleNav);
-    });
-    
-  </script>
-  </body>
+  navButtons.map(button => {
+    button.addEventListener("click", toggleNav);
+  });
+
+</script>
+</body>
+
 </html>
