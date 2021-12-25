@@ -29,7 +29,7 @@ body {
 
 .container {
   margin: 0;
-  max-width: 992px;
+  max-width: 800px;
   width: 100%;
 }
 
@@ -40,9 +40,6 @@ body {
 
 .about p {
   color: slategray;
-  @media (min-width: 992px) {
-    font-size: 21px;
-  }
 }
 
 @import "nav.scss";

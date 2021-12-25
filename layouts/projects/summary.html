@@ -1,10 +1,8 @@
 <li>
   <h2>{{ .Title }}</h2>
   <p class="summary">{{ .Params.Summary }}</p>
-  <div class="buttons">
-    {{ if .Content }}
-    <a href="{{ .Permalink }}">Case Study →</a>
-    {{ end }}
-    <a href="{{ .Params.projectURL }}" target="_blank">Project URL →</a>
-  </div>
+  {{ if .Content }}
+  <a href="{{ .Permalink }}">Case Study →</a>
+  {{ end }}
+  <a href="{{ .Params.projectURL }}" target="_blank">Project URL →</a>
 </li>

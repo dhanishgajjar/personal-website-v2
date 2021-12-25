@@ -8,4 +8,4 @@ menu:
 
 # About
 
-I am a developer based in Lisbon, Portugal.
+WIP

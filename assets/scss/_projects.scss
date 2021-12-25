@@ -1,52 +1,39 @@
 .projects {
   display: grid;
-  grid-template-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   margin-top: 30px;
   li {
     background-color: white;
-    display: grid;
-    grid-template-areas:
-      "title"
-      "summary"
-      "buttons";
-    padding: 20px;
+    padding: 40px;
+    width: 100%;
     h2 {
-      grid-area: title;
+      height: 80px;
       margin: 0;
       padding: 0;
     }
     p {
       color: slategray;
-      grid-area: summary;
+      display: inline-block;
+      height: 80px;
+      margin-top: 20px;
     }
-    .buttons {
-      grid-area: buttons;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-      grid-gap: 20px;
-      place-items: center;
-      a,
-      a:link,
-      a:visited,
-      a:active {
-        border: 1px solid black;
-        padding: 10px 20px;
-        text-align: center;
-        width: 100%;
-        &:hover {
-          background-color: black;
-          color: white;
-        }
+    a,
+    a:link,
+    a:visited,
+    a:active {
+      border: 1px solid black;
+      display: inline-block;
+      padding: 10px 20px;
+      text-align: center;
+      width: 100%;
+      &:hover {
+        background-color: black;
+        color: white;
       }
     }
-    @media (min-width: 992px) {
-      grid-template-columns: 1fr 250px;
-      grid-gap: 20px 40px;
-      grid-template-areas:
-        "title buttons"
-        "summary buttons";
-      padding: 40px;
-    }
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
   }
 }
