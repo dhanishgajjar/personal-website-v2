@@ -5,18 +5,18 @@
   margin-top: 30px;
   li {
     background-color: white;
+    display: flex;
+    flex-direction: column;
     padding: 40px;
     width: 100%;
     h2 {
-      height: 80px;
       margin: 0;
       padding: 0;
     }
     p {
       color: slategray;
       display: inline-block;
-      height: 80px;
-      margin-top: 20px;
+      margin: 20px 0;
     }
     a,
     a:link,
@@ -24,6 +24,7 @@
     a:active {
       border: 1px solid black;
       display: inline-block;
+      margin-top: auto;
       padding: 10px 20px;
       text-align: center;
       width: 100%;
@@ -35,5 +36,11 @@
   }
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
+    li {
+      padding: 20px;
+      h2 {
+        font-size: 18px;
+      }
+    }
   }
 }

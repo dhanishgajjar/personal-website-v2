@@ -122,16 +122,14 @@
   .projects {
     li {
       background-color: #111;
-      .buttons {
-        a,
-        a:link,
-        a:visited,
-        a:active {
-          border-color: white;
-          &:hover {
-            background-color: white;
-            color: black;
-          }
+      a,
+      a:link,
+      a:visited,
+      a:active {
+        border-color: white;
+        &:hover {
+          background-color: white;
+          color: black;
         }
       }
     }

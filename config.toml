@@ -2,8 +2,3 @@ baseURL = "https://www.dhanishgajjar.com/"
 languageCode = "en-us"
 title = "Full Stack JavaScript Developer"
 sectionPage = "mainmenu"
-
-[caches]
-[caches.getjson]
-dir = ":cacheDir/:project"
-maxAge = "10s"
