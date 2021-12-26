@@ -26,12 +26,16 @@ body {
 
 .container {
   margin: 0;
-  max-width: 1180px;
+  max-width: 800px;
   width: 100%;
 }
 
 .about p {
   color: slategray;
+}
+
+.about a, a:link a:visited, a:active {
+  text-decoration: underline;
 }
 
 @import "nav.scss";
