@@ -1,4 +1,7 @@
 @media (prefers-color-scheme: dark) {
+  *::selection {
+    background: orangered;
+  }
   body {
     background: black;
   }

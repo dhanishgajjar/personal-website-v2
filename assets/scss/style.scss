@@ -1,8 +1,6 @@
 * {
   box-sizing: border-box;
-  &::selection {
-    background: orangered;
-  }
+  
 }
 
 ul {
@@ -29,13 +27,8 @@ body {
 
 .container {
   margin: 0;
-  max-width: 800px;
+  max-width: 1180px;
   width: 100%;
-}
-
-.disclaimer {
-  font-size: 12px;
-  margin: 30px 0;
 }
 
 .about p {

@@ -120,10 +120,10 @@ nav {
     }
   }
 
-  @media (min-width: 992px) {
+  @media (min-width: 800px) {
     display: flex;
     justify-content: space-between;
-    max-width: 800px;
+    max-width: 1180px;
     button {
       display: none;
     }
@@ -140,7 +140,7 @@ nav {
       a:active,
       a:visited {
         display: inline-block;
-        margin-left: 10px;
+        margin-left: 5px;
         padding: 10px 15px;
       }
     }

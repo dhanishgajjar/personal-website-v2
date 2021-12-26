@@ -1,13 +1,13 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <div class="container">
-  {{ $books := getJSON "https://goodreads-api.now.sh" }}
   <h1>{{ .Page.Title }}</h1>
+  {{ $books := .Site.Data.books }}
   <p>
     I have read a lot of books. But these {{ len $books }} books are my favourites and which I would like to recommend.
   </p>
 
   <ul class="books">
-    {{ range sort $books }}
+    {{ range sort $books "title" "asc" }}
     <li>
       <h2>{{ .title }}</h2>
       <img src="/thumbnails/{{ .title | urlize }}.webp" alt="{{ .title }}" />
