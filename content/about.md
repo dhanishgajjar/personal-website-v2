@@ -13,17 +13,23 @@ Hello 👋🏽 my name is Dhanish Gajjar. I'm a developer advocate and full-stac
 
 I primarily work with JavaScript, which means React, GatsbyJS, NextJS, NodeJS, etc. Although I'm always learning new frameworks and technologies. I subscribe to the "Junior Dev for Life" mentality. We're always learning.
 
-My social media links are on the home page if you want to get in touch with me.
+My social media links are on the home page if you want to contact me.
 
 ## Backstory, and how I got here.
 
 First time I saw a computer was in my primary school. It was 1994. The air-conditioned room was full of beige boxes with black and white screens. A cursor was blinking away. I thought to myself, this is the best thing I have ever seen; I could spend hours sitting here. But, we only had 1 hour in like every 2 weeks.
 
-Unfortunately, due to financial circumstances, my father could never buy me a computer. It didn't stop me from trying every year. But after about 7 years, I gave up. I finished high school and then joined university, thinking I would do business administration.
+Unfortunately, my father could never buy me a computer due to financial circumstances. It didn't stop me from trying every year. But after about 7 years, I gave up. I finished high school and then joined university, thinking I would do business administration.
 
 I dropped out in 3 months. I couldn't kill my soul anymore. I finally convinced my dad that I really wanted to do something with computers; it's always been my dream. But it was the early 2000s. The E-commerce bubble had just burst. Companies were shutting down and laying programmers off left and right. I got a bit worried.
 
-I liked drawing and sketching. I thought to myself, why not go into the creative field. I found a good 6 months diploma course that taught me how to use Photoshop, Dreamweaver, 3D Studio Max.
+I liked drawing and sketching. I thought to myself, why not go into the creative field. I found a good 6 months diploma course that taught me how to use Photoshop, Dreamweaver, 3D Studio Max, DOS-based 2D Animator Pro and Flash.
+
+While I was doing that, one of my friends told me you'll need a degree in something still. No one hires people without a degree. So I enrolled in a college for my BA, majoring in Economics and Statistics. (Yes, that's the degree I have.)
+
+When I finished the diploma and started looking for jobs, I soon found that whatever they taught in 6 months was so simple, no one would hire me with that skill level. There is still a big disconnect between what institutions or schools teach and what is really important to get a job.
+
+I started begging my dad to really buy me a computer because I wouldn't be able to learn new things or practice without that. Thankfully with the help of one of his friends, he managed to get me one in April of 2005. Finally! 11 years later, I had a PC of my own.
 
 I started out as a graphics designer making print ads for magazines and newspapers. Then moved on to designing and developing websites. I didn't know HTML, CSS, and JS back then. I learned at my first company to take a Photoshop file and slice the entire design. As an example, the navigation, where the text would go. You then turn off all the text layers and export this collection of slices to an HTML folder. You then open the file in Dreamweaver, all the spots where text would go, you delete that image and place it again as a background. Then type out the text. Everything was done in a visual mode. This was so wrong, but it worked!. We only had to care about one screen size and 2 browsers, Internet Explorer and Firefox.
 
