@@ -4,6 +4,7 @@ menu:
   mainmenu:
     title: 'My complete setup and all the other stuff that I use'
     weight: 05
+description: "Setup, Devices, Desk, IDE, tools, and other stuff I use"
 ---
 
 # Uses
