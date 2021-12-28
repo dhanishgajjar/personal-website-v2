@@ -31,14 +31,14 @@
 
   nav {
     background-color: black;
-    span.home,
+    h1.home,
     a,
     a:link,
     a:visited,
     a:active {
       color: white;
     }
-    span.home {
+    h1.home {
       a,
       a:link,
       a:active,
@@ -53,8 +53,7 @@
         background: white;
       }
     }
-    span.home a:active,
-    span.home a:hover,
+    h1.home a:hover,
     ul li a.active,
     ul li a:hover {
       background: white;
