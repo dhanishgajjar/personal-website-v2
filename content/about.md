@@ -17,7 +17,7 @@ My social media links are on the home page if you want to contact me.
 
 First time I saw a computer was in my primary school. It was 1994. The air-conditioned room was full of beige boxes with black and white screens. A cursor was blinking away. I thought to myself, this is the best thing I have ever seen; I could spend hours sitting here. But, we only had 1 hour in like every 2 weeks.
 
-Unfortunately, my father could never buy me a computer due to financial circumstances. Focus on your school, he said, may when you're older I will think about it. It didn't stop me from trying every year. But after about 7 years, I gave up. I finished high school and then joined university, thinking I would do business administration.
+Unfortunately, my father could never buy me a computer due to financial circumstances. Focus on your school, he said, may be when you're older I will think about it. It didn't stop me from trying every year. But after about 7 years, I gave up. I finished high school and then joined university, thinking I would do business administration.
 
 I dropped out in 3 months because I couldn't let my soul die. Finally convinced my dad that I really wanted to do something with computers; it's always been my dream. But it was the early 2000s. The E-commerce bubble had just burst. Companies were shutting down and laying programmers off left and right. I got a bit worried.
 
