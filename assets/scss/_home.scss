@@ -9,20 +9,6 @@
     font-weight: 600;
     line-height: 1.25;
   }
-  span {
-    font-size: 48px;
-  }
-  h1 {
-    font-size: 36px;
-  }
-  @media (max-width: 700px) {
-    span {
-      font-size: 36px;
-    }
-    h1 {
-      font-size: 24px;
-    }
-  }
 }
 
 .cards {
@@ -52,14 +38,12 @@
       outline: 2px dashed slategray;
     }
     h2 {
-      font-size: 21px;
       font-weight: 500;
       margin: 0;
       text-transform: capitalize;
     }
     p {
       color: slategray;
-      font-size: 16px;
       margin-top: 40px;
       position: relative;
       &:before {

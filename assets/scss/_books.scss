@@ -1,9 +1,8 @@
 .books {
   display: grid;
   grid-gap: 40px;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: 1fr 1fr;
   margin-top: 30px;
-
   li {
     background-color: white;
     display: flex;
@@ -22,11 +21,9 @@
       text-align: center;
     }
     h2 {
-      font-size: 16px;
       min-height: 60px;
     }
-    h3 {
-      font-size: 14px;
+    h4 {
       color: slategray;
     }
     a {
@@ -41,5 +38,8 @@
         color: white;
       }
     }
+  }
+  @media (max-width: 700px) {
+    grid-template-columns: 1fr;
   }
 }

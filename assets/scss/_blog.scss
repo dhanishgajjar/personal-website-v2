@@ -52,11 +52,6 @@
 }
 
 .blog {
-  p {
-    @media (min-width: 992px) {
-      font-size: 21px;
-    }
-  }
   .stats {
     span {
       font-family: "IBM Plex Mono", monospace;

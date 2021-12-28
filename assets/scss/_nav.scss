@@ -1,88 +1,24 @@
 nav {
-  align-items: center;
-  background-color: #efefef;
-  border-bottom: 1px solid #ccc;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas:
-    'togglebutton logo'
-    'navigation navigation';
-  padding: 20px 0 0 0;
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+  max-width: 992px;
   button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 32px;
-    height: 30px;
-    margin-left: auto;
-    outline: none;
-    padding: 0;
-    position: relative;
-    width: 30px;
+    display: none;
   }
-  button[aria-expanded='false'],
-  button[aria-expanded='true'] {
-    &:before,
-    &:after {
-      background: black;
-      bottom: 0;
-      content: '';
-      height: 2px;
-      left: 0;
-      margin: auto;
-      position: absolute;
-      right: 0;
-      top: 0;
-      transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
-      width: 100%;
-    }
-  }
-
-  button[aria-expanded='false'] {
-    &:before {
-      transform: translateY(-5px) rotate3d(0, 0, 0, 45deg);
-    }
-    &:after {
-      transform: translateY(5px) rotate3d(0, 0, 0, -45deg);
-    }
-  }
-
-  button[aria-expanded='true'] {
-    &:before {
-      transform: translateY(0px) rotate3d(0, 0, 1, 45deg);
-    }
-    &:after {
-      transform: translateY(0px) rotate3d(0, 0, 1, -45deg);
-    }
-  }
-
   ul {
-    display: grid;
-    grid-gap: 20px;
-    grid-area: navigation;
-    height: 0px;
-    margin: 0;
-    padding: 10px 0;
-    overflow: hidden;
-    transition: all 0.5s ease-in-out;
-    li {
-      text-align: center;
-      @for $i from 1 through 6 {
-        &:nth-child(#{$i}) {
-          opacity: 0;
-          transition: opacity 0.2s #{$i * 0.1}s ease-in;
-        }
-      }
+    display: flex;
+    justify-content: flex-end;
+    height: initial;
+    opacity: 1;
+    li:nth-child(-n + 6) {
+      opacity: 1;
     }
     a,
     a:link,
     a:active,
     a:visited {
-      font-size: 18px;
+      display: inline-block;
+      margin-left: 10px;
       padding: 10px 15px;
     }
     a:hover,
@@ -91,61 +27,117 @@ nav {
       color: white;
     }
   }
-
-  [aria-expanded='true'] ~ ul {
-    height: 350px;
-    li {
-      opacity: 1;
-    }
-    @media (min-width: 992px) {
-      padding: 0;
-    }
-  }
-
-  span.home {
-    font-size: 24px;
-    font-weight: 700;
-    margin-right: auto;
+  h1.home {
+    font-weight: 600;
+    margin-left: initial;
     a,
-    a:link,
-    a:active,
-    a:visited {
-      border: 1px solid #ccc;
-      padding: 5px 10px;
-    }
-    a:hover {
-      background-color: black;
-      color: white;
-      cursor: pointer;
-    }
-  }
-
-  @media (min-width: 800px) {
-    display: flex;
-    justify-content: space-between;
-    max-width: 800px;
-    button {
-      display: none;
-    }
-    ul {
-      display: flex;
-      justify-content: flex-end;
-      height: initial;
-      opacity: 1;
-      li:nth-child(-n + 6) {
-        opacity: 1;
-      }
-      a,
       a:link,
       a:active,
       a:visited {
-        display: inline-block;
-        margin-left: 5px;
-        padding: 10px 15px;
+        border: 1px solid #ccc;
+        padding: 5px 10px;
+      }
+      a:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+      }
+  }
+  width: 100%;
+  @media (max-width: 700px) {
+    align-items: center;
+    background-color: #efefef;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas:
+      'togglebutton logo'
+      'navigation navigation';
+    padding: 20px 0 0 0;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    button {
+      background: none;
+      border: none;
+      cursor: pointer;
+      display: inline-block;
+      height: 30px;
+      margin-left: auto;
+      outline: none;
+      padding: 0;
+      position: relative;
+      width: 30px;
+    }
+    button[aria-expanded='false'],
+    button[aria-expanded='true'] {
+      &:before,
+      &:after {
+        background: black;
+        bottom: 0;
+        content: '';
+        height: 2px;
+        left: 0;
+        margin: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+        width: 100%;
       }
     }
-    span.home {
-      margin-left: initial;
+
+    button[aria-expanded='false'] {
+      &:before {
+        transform: translateY(-5px) rotate3d(0, 0, 0, 45deg);
+      }
+      &:after {
+        transform: translateY(5px) rotate3d(0, 0, 0, -45deg);
+      }
+    }
+
+    button[aria-expanded='true'] {
+      &:before {
+        transform: translateY(0px) rotate3d(0, 0, 1, 45deg);
+      }
+      &:after {
+        transform: translateY(0px) rotate3d(0, 0, 1, -45deg);
+      }
+    }
+
+    ul {
+      display: grid;
+      grid-gap: 20px;
+      grid-area: navigation;
+      justify-content: center;
+      height: 0px;
+      margin: 0;
+      padding: 10px 0;
+      overflow: hidden;
+      transition: all 0.5s ease-in-out;
+      li {
+        text-align: center;
+        @for $i from 1 through 6 {
+          &:nth-child(#{$i}) {
+            opacity: 0;
+            transition: opacity 0.2s #{$i * 0.1}s ease-in;
+          }
+        }
+      }
+    }
+
+    [aria-expanded='true'] ~ ul {
+      height: 350px;
+      li {
+        opacity: 1;
+      }
+      @media (min-width: 992px) {
+        padding: 0;
+      }
+    }
+
+    h1.home {
+      margin-right: auto;
     }
   }
 }

@@ -1,6 +1,6 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <div class="container">
-  <h1>{{ .Page.Title }}</h1>
+  <h2>{{ .Page.Title }}</h2>
   <ul class="projects">
     {{ range sort (.Paginator 10).Pages "Params.order" "desc" }} {{ .Render "summary"}} {{ end }}
   </ul>

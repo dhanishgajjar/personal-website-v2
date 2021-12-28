@@ -4,10 +4,8 @@ menu:
   mainmenu:
     title: "About me, what I do now and how I got started"
     weight: 06
-description: "About me, what I do now and how I got started"
+description: "About me, and how I got started"
 ---
-
-# About
 
 Hello 👋🏽 my name is Dhanish Gajjar. I'm a developer advocate and full-stack developer at [Revieve Inc](https://www.revieve.com). I joined them in September 2017, and I'm still working there, loving every single day of it.
 
@@ -15,13 +13,13 @@ I primarily work with JavaScript, which means React, GatsbyJS, NextJS, NodeJS, e
 
 My social media links are on the home page if you want to contact me.
 
-## Backstory, and how I got here.
+### Backstory, and how I got here.
 
 First time I saw a computer was in my primary school. It was 1994. The air-conditioned room was full of beige boxes with black and white screens. A cursor was blinking away. I thought to myself, this is the best thing I have ever seen; I could spend hours sitting here. But, we only had 1 hour in like every 2 weeks.
 
-Unfortunately, my father could never buy me a computer due to financial circumstances. It didn't stop me from trying every year. But after about 7 years, I gave up. I finished high school and then joined university, thinking I would do business administration.
+Unfortunately, my father could never buy me a computer due to financial circumstances. Focus on your school, he said, may when you're older I will think about it. It didn't stop me from trying every year. But after about 7 years, I gave up. I finished high school and then joined university, thinking I would do business administration.
 
-I dropped out in 3 months. I couldn't kill my soul anymore. I finally convinced my dad that I really wanted to do something with computers; it's always been my dream. But it was the early 2000s. The E-commerce bubble had just burst. Companies were shutting down and laying programmers off left and right. I got a bit worried.
+I dropped out in 3 months because I couldn't let my soul die. Finally convinced my dad that I really wanted to do something with computers; it's always been my dream. But it was the early 2000s. The E-commerce bubble had just burst. Companies were shutting down and laying programmers off left and right. I got a bit worried.
 
 I liked drawing and sketching. I thought to myself, why not go into the creative field. I found a good 6 months diploma course that taught me how to use Photoshop, Dreamweaver, 3D Studio Max, DOS-based 2D Animator Pro and Flash.
 
@@ -57,4 +55,4 @@ I used to get DMs on Instagram all the time, and sometimes people tried to ask m
 
 They asked for a quote, and I emailed them back saying I would prefer a full-time role if their project was long. The person said he would call me on Skype the next day. We discussed everything, and he introduced me to what the company was doing, so I asked when is the interview. He said there was no interview. Everything you do I have been watching on your Instagram, how you come across problems, how you post them, how you find solutions and fix them, that's enough for me. Just like that, I was hired by [Samuli Siivinen](https://www.linkedin.com/in/samulisiivinen/).
 
-I am still working there, and we've grown from a team of 6 to more than 60 people today. It's been an incredible journey. Samuli has been a fantastic mentor, manager, and CTO.
+I am still working there, and we've grown from a team of 6 to more than 60 people today. It's been an incredible journey. Samuli has been a fantastic mentor, manager, CTO along with the CEO [Sampo Parkkinen](https://www.linkedin.com/in/sampo-parkkinen-b3262a6/) and COO [Gavin Weigh](https://www.linkedin.com/in/gavin-weigh-061b6316/).

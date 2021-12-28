@@ -6,10 +6,7 @@ menu:
     weight: 05
 description: "Setup, Devices, Desk, IDE, tools, and other stuff I use"
 ---
-
-# Uses
-
-## Editor
+### Editor
 
 - Visual Studio Code
 - Dracula Theme
@@ -48,7 +45,7 @@ description: "Setup, Devices, Desk, IDE, tools, and other stuff I use"
 #### Desk
 
 - [Autonomous Desk](https://rb.gy/ppokil)
-## Other Devices
+### Other Devices
 
 - AirPods Pro
 - iPhone 12 Pro Max

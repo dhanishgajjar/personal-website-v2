@@ -1,13 +1,13 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <ul class="container">
-  <h1>{{ .Page.Title }}</h1>
+  <h2>{{ .Page.Title }}</h2>
   {{ .Content }}
   <ul class="courses">
     {{ range .Pages }}
     <li>
-      <h2>
+      <h3>
         <a href="{{ .Params.courseURL }}">{{ .Title }}</a>{{ if eq .Params.status "free"}} <span>free</span> {{ end }}
-      </h2>
+      </h3>
       <p>
         {{ .Params.desc | truncate 140 }}
       </p>
