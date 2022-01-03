@@ -1,134 +1,173 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lisbon-based Developer</title>
-    <link>https://dhanishgajjar.com/</link>
-    <description>Recent content on Lisbon-based Developer</description>
+    <title>Full Stack JavaScript Developer</title>
+    <link>https://www.dhanishgajjar.com/</link>
+    <description>Recent content on Full Stack JavaScript Developer</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://dhanishgajjar.com/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://www.dhanishgajjar.com/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>About</title>
-      <link>https://dhanishgajjar.com/about/</link>
+      <link>https://www.dhanishgajjar.com/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/about/</guid>
-      <description>About I am a developer based in Lisbon, Portugal.</description>
+      <guid>https://www.dhanishgajjar.com/about/</guid>
+      <description>Hello 👋🏽 my name is Dhanish Gajjar. I&amp;rsquo;m a developer advocate and full-stack developer at Revieve Inc. I joined them in September 2017, and I&amp;rsquo;m still working there, loving every single day of it.
+I primarily work with JavaScript, which means React, GatsbyJS, NextJS, NodeJS, etc. Although I&amp;rsquo;m always learning new frameworks and technologies. I subscribe to the &amp;ldquo;Junior Dev for Life&amp;rdquo; mentality. We&amp;rsquo;re always learning.
+My social media links are on the home page if you want to contact me.</description>
     </item>
     
     <item>
       <title>Advanced React</title>
-      <link>https://dhanishgajjar.com/courses/advanced-react/</link>
+      <link>https://www.dhanishgajjar.com/courses/advanced-react/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/advanced-react/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/advanced-react/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Beginner JavaScript</title>
-      <link>https://dhanishgajjar.com/courses/beginner-javascript/</link>
+      <link>https://www.dhanishgajjar.com/courses/beginner-javascript/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/beginner-javascript/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/beginner-javascript/</guid>
       <description></description>
     </item>
     
     <item>
       <title>BuildUpDevs</title>
-      <link>https://dhanishgajjar.com/projects/buildupdevs/</link>
+      <link>https://www.dhanishgajjar.com/projects/buildupdevs/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/projects/buildupdevs/</guid>
+      <guid>https://www.dhanishgajjar.com/projects/buildupdevs/</guid>
       <description>Community for developers, by developers</description>
     </item>
     
     <item>
       <title>CSS Flags</title>
-      <link>https://dhanishgajjar.com/projects/cssflags/</link>
+      <link>https://www.dhanishgajjar.com/projects/cssflags/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/projects/cssflags/</guid>
+      <guid>https://www.dhanishgajjar.com/projects/cssflags/</guid>
       <description>A fantastic project that was about creating flags with just single div and CSS</description>
     </item>
     
     <item>
       <title>CSS Grid</title>
-      <link>https://dhanishgajjar.com/courses/css-grid/</link>
+      <link>https://www.dhanishgajjar.com/courses/css-grid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/css-grid/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/css-grid/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CSS Grid Course</title>
-      <link>https://dhanishgajjar.com/projects/cssgrid/</link>
+      <link>https://www.dhanishgajjar.com/projects/cssgrid/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/projects/cssgrid/</guid>
+      <guid>https://www.dhanishgajjar.com/projects/cssgrid/</guid>
       <description>Designed thumbnails for Wes&amp;rsquo;s CSS Grid Course</description>
     </item>
     
     <item>
       <title>ES6 for Everyone</title>
-      <link>https://dhanishgajjar.com/courses/es6/</link>
+      <link>https://www.dhanishgajjar.com/courses/es6/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/es6/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/es6/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript 30</title>
+      <link>https://www.dhanishgajjar.com/courses/javascript-30/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dhanishgajjar.com/courses/javascript-30/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Javascript 30 Thumbnails (YouTube)</title>
-      <link>https://dhanishgajjar.com/projects/js30/</link>
+      <link>https://www.dhanishgajjar.com/projects/js30/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/projects/js30/</guid>
+      <guid>https://www.dhanishgajjar.com/projects/js30/</guid>
       <description>Designed thumbnails for Wes&amp;rsquo;s JS30 Course for YouTube</description>
     </item>
     
     <item>
       <title>Learn Node</title>
-      <link>https://dhanishgajjar.com/courses/learn-node/</link>
+      <link>https://www.dhanishgajjar.com/courses/learn-node/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/learn-node/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/learn-node/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Level Up Pro</title>
+      <link>https://www.dhanishgajjar.com/courses/levelup-pro/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dhanishgajjar.com/courses/levelup-pro/</guid>
       <description></description>
     </item>
     
     <item>
       <title>React for Beginners</title>
-      <link>https://dhanishgajjar.com/courses/react-for-beginners/</link>
+      <link>https://www.dhanishgajjar.com/courses/react-for-beginners/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/react-for-beginners/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/react-for-beginners/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Uses</title>
-      <link>https://dhanishgajjar.com/uses/</link>
+      <title>Sandra Henrique&#39;s Portfolio Website</title>
+      <link>https://www.dhanishgajjar.com/projects/shenriques/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/uses/</guid>
-      <description>Uses Editor  Visual Studio Code SynthWave &amp;lsquo;84 Theme Operator Mono Font  Macbook Pro  16&amp;quot; (2019) 2.3Ghz 8-core 9th-generation Intel Core i9 processor Intel UHD Graphics 630 AMD Radeon Pro 5500M with 8GB of GDDR6 memory 32 GB 2667Mhz DDR4 memory 1 TB Apple SSD  Devices  iPhone 12 Pro Max iPad Pro 2018 with Magic Keyboard &amp;amp; Apple Pencil Paperlike on the iPad  </description>
+      <guid>https://www.dhanishgajjar.com/projects/shenriques/</guid>
+      <description>A website for Sandra Henrique&amp;rsquo;s portfolio</description>
+    </item>
+    
+    <item>
+      <title>Terminal Icons</title>
+      <link>https://www.dhanishgajjar.com/projects/terminal-icons/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dhanishgajjar.com/projects/terminal-icons/</guid>
+      <description>Custom Icons for third party terminal applications</description>
+    </item>
+    
+    <item>
+      <title>Uses</title>
+      <link>https://www.dhanishgajjar.com/uses/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.dhanishgajjar.com/uses/</guid>
+      <description>Shoes New Balance 520 v7
+Editor  Visual Studio Code Dracula Theme Operator Mono Font  Terminal  Oh My Zsh with Syntax Highlighting Plugin Spaceship Prompt Hyper with Dracula theme and Hyper Border Plugin Droid Sans Mono for Powerline Font  Setup Mac  M1 Macbook Air with 16GB Ram and 512 GB SSD Dell 25&amp;quot; U2515H Monitor Caldigit TS3+ Dock Logitech Z207 Bluetooth Speakers Logitech MX Keys Keyboard Logitech MX Master 3 Mouse Logitech C922 Pro Webcam TwelveSouth Curve Laptop Stand  PC  10th Gen Intel Core i5-10400 2.</description>
     </item>
     
     <item>
       <title>Visual Studio Code Icons</title>
-      <link>https://dhanishgajjar.com/projects/vscode-icons/</link>
+      <link>https://www.dhanishgajjar.com/projects/vscode-icons/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/projects/vscode-icons/</guid>
+      <guid>https://www.dhanishgajjar.com/projects/vscode-icons/</guid>
       <description>Collection of VSCode icons inspired from games, movies, tvshows, comics and more</description>
     </item>
     
     <item>
       <title>What The Flexbox?!</title>
-      <link>https://dhanishgajjar.com/courses/what-the-flexbox/</link>
+      <link>https://www.dhanishgajjar.com/courses/what-the-flexbox/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://dhanishgajjar.com/courses/what-the-flexbox/</guid>
+      <guid>https://www.dhanishgajjar.com/courses/what-the-flexbox/</guid>
       <description></description>
     </item>
     

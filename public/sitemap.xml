@@ -2,46 +2,54 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://dhanishgajjar.com/</loc>
+    <loc>https://www.dhanishgajjar.com/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/about/</loc>
+    <loc>https://www.dhanishgajjar.com/about/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/advanced-react/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/advanced-react/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/beginner-javascript/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/beginner-javascript/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/blog/</loc>
+    <loc>https://www.dhanishgajjar.com/blog/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/books/</loc>
+    <loc>https://www.dhanishgajjar.com/books/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/projects/buildupdevs/</loc>
+    <loc>https://www.dhanishgajjar.com/projects/buildupdevs/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/categories/</loc>
+    <loc>https://www.dhanishgajjar.com/categories/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/projects/cssflags/</loc>
+    <loc>https://www.dhanishgajjar.com/projects/cssflags/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/css-grid/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/css-grid/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/projects/cssgrid/</loc>
+    <loc>https://www.dhanishgajjar.com/projects/cssgrid/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/es6/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/es6/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/projects/js30/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/javascript-30/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/learn-node/</loc>
+    <loc>https://www.dhanishgajjar.com/projects/js30/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/projects/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/learn-node/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/react-for-beginners/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/levelup-pro/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/tags/</loc>
+    <loc>https://www.dhanishgajjar.com/projects/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/uses/</loc>
+    <loc>https://www.dhanishgajjar.com/courses/react-for-beginners/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/projects/vscode-icons/</loc>
+    <loc>https://www.dhanishgajjar.com/projects/shenriques/</loc>
   </url><url>
-    <loc>https://dhanishgajjar.com/courses/what-the-flexbox/</loc>
+    <loc>https://www.dhanishgajjar.com/tags/</loc>
+  </url><url>
+    <loc>https://www.dhanishgajjar.com/projects/terminal-icons/</loc>
+  </url><url>
+    <loc>https://www.dhanishgajjar.com/uses/</loc>
+  </url><url>
+    <loc>https://www.dhanishgajjar.com/projects/vscode-icons/</loc>
+  </url><url>
+    <loc>https://www.dhanishgajjar.com/courses/what-the-flexbox/</loc>
   </url>
 </urlset>
