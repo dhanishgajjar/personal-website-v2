@@ -2,4 +2,4 @@
 /.cache/
 /resources/
 /isableFastRender/
-/node_modules
+/public/
