@@ -42,6 +42,10 @@ body {
   text-decoration: underline;
 }
 
+.about img {
+  width: 100%;
+}
+
 @import "nav.scss";
 @import "home.scss";
 @import "social.scss";
