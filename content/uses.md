@@ -45,12 +45,13 @@ New Balance 520 v7
 - HyperX Predator RGB 16GB DDR4-2933MHz CL15 Ram
 - Gigabyte RTX 2070 Super Gaming OC 3X 8GB GPU
 - Corsair RM650 80+ Gold Fully Modular PSU
-- WD Black SN750 1TB 3D Nano NVMe SSD
+- 1TB WD Black SN750 3D Nano NVMe SSD and 1TB OWC Auro Pro NVMe SSD in RAID 0
 - ATX Cooler Master - MasterBox MB510L Case
 
 #### Desk
 
-- [Autonomous Desk](https://rb.gy/ppokil)
+- Autonomous SmartDesk Pro - 53" x 29" (135 cms x 74 cms)
+- [Purchase from here](https://rb.gy/ppokil), use code "R-41bb3b" during checkout.
 ### Other Devices
 
 - AirPods Pro
