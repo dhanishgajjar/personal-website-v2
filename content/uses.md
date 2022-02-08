@@ -36,6 +36,7 @@ New Balance 520 v7
 - Logitech MX Master 3 Mouse
 - Logitech C922 Pro Webcam
 - TwelveSouth Curve Laptop Stand
+- TwelveSouth Curve Riser Monitor Stand
 
 #### PC
 
