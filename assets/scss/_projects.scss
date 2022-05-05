@@ -3,39 +3,36 @@
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
   margin-top: 30px;
+
   li {
     background-color: white;
     display: flex;
     flex-direction: column;
     padding: 40px;
     width: 100%;
+
     h2 {
       margin: 0;
       padding: 0;
     }
+
     p {
       color: slategray;
       display: inline-block;
       margin: 20px 0;
     }
+
     a,
     a:link,
     a:visited,
     a:active {
-      border: 1px solid black;
-      display: inline-block;
-      margin-top: auto;
-      padding: 10px 20px;
-      text-align: center;
-      width: 100%;
-      &:hover {
-        background-color: black;
-        color: white;
-      }
+      text-decoration: underline;
     }
   }
+
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
+
     li {
       padding: 20px;
     }

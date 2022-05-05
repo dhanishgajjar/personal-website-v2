@@ -4,14 +4,17 @@
   grid-area: tags;
   margin: 0;
   width: 100%;
+
   li {
     border: 1px solid black;
     margin: 0 5px 5px 0;
     overflow: hidden;
+
     a {
       color: black;
       font-weight: 700;
       padding: 10px 10px 10px 0;
+
       span {
         background-color: white;
         color: black;
@@ -19,6 +22,7 @@
         padding: 5px 10px;
         margin: 0 10px 0 0;
       }
+
       &:hover,
       &.active {
         background-color: black;

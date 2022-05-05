@@ -2,34 +2,43 @@
   display: grid;
   grid-gap: 40px;
   grid-template-columns: 1fr;
+
   @media (min-width: 992px) {
     grid-template-columns: repeat(2, 1fr);
   }
+
   li {
     background-color: white;
     padding: 20px;
+
     @media (min-width: 992px) {
       padding: 40px;
     }
+
     h2 {
       display: flex;
       align-items: center;
+
       span {
         background-color: springgreen;
         border: 2px solid rgba(0, 0, 0, 0.3);
         border-radius: 3px;
         display: inline;
         font-weight: 700;
+        font-size: 1rem;
         margin-left: 10px;
         padding: 2px 5px;
         text-transform: uppercase;
       }
     }
+
     p {
       color: slategray;
     }
+
     h2,
-    h4 {
+    h3 {
+
       a,
       a:link,
       a:visited,
@@ -37,17 +46,9 @@
         text-decoration: underline;
       }
     }
+
     p {
       min-height: 120px;
-    }
-    .button {
-      border: 1px solid black;
-      display: inline-block;
-      padding: 10px 20px;
-      &:hover {
-        background-color: black;
-        color: white;
-      }
     }
   }
 }

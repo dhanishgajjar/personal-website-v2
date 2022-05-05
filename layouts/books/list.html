@@ -1,6 +1,6 @@
 {{ define "content" }} {{ partial "navigation" . }}
 <div class="container">
-  <h2>{{ .Page.Title }}</h2>
+  <h1>{{ .Page.Title }}</h1>
   {{ $books := .Site.Data.books }}
   <p>
     I have read a lot of books. But these {{ len $books }} books are my favourites and which I would like to recommend.
@@ -9,9 +9,9 @@
   <ul class="books">
     {{ range sort $books "title" "asc" }}
     <li>
-      <h3>{{ .title }}</h3>
+      <h2>{{ .title }}</h2>
       <img src="/thumbnails/{{ .title | urlize }}.webp" alt="{{ .title }}" />
-      <h4>by {{ .author }}</h4>
+      <h3>by {{ .author }}</h3>
     </li>
     {{ end }}
   </ul>

@@ -2,17 +2,21 @@ nav {
   display: flex;
   justify-content: space-between;
   max-width: 992px;
+
   button {
     display: none;
   }
+
   ul {
     display: flex;
     justify-content: flex-end;
     height: initial;
     opacity: 1;
+
     li:nth-child(-n + 6) {
       opacity: 1;
     }
+
     a,
     a:link,
     a:active,
@@ -22,30 +26,36 @@ nav {
       padding: 10px 20px;
       text-decoration: none;
     }
+
     a:hover,
     a.active {
       background-color: black;
       color: white;
     }
   }
+
   h1.home {
     font-weight: 600;
     margin-left: initial;
+
     a,
-      a:link,
-      a:active,
-      a:visited {
-        border: 1px solid #ccc;
-        padding: 5px 10px;
-        text-decoration: none;
-      }
-      a:hover {
-        background-color: black;
-        color: white;
-        cursor: pointer;
-      }
+    a:link,
+    a:active,
+    a:visited {
+      border: 1px solid #ccc;
+      padding: 5px 10px;
+      text-decoration: none;
+    }
+
+    a:hover {
+      background-color: black;
+      color: white;
+      cursor: pointer;
+    }
   }
+
   width: 100%;
+
   @media (max-width: 700px) {
     align-items: center;
     background-color: #efefef;
@@ -58,6 +68,7 @@ nav {
     position: sticky;
     top: 0;
     z-index: 1;
+
     button {
       background: none;
       border: none;
@@ -70,8 +81,10 @@ nav {
       position: relative;
       width: 30px;
     }
+
     button[aria-expanded='false'],
     button[aria-expanded='true'] {
+
       &:before,
       &:after {
         background: black;
@@ -92,6 +105,7 @@ nav {
       &:before {
         transform: translateY(-5px) rotate3d(0, 0, 0, 45deg);
       }
+
       &:after {
         transform: translateY(5px) rotate3d(0, 0, 0, -45deg);
       }
@@ -101,6 +115,7 @@ nav {
       &:before {
         transform: translateY(0px) rotate3d(0, 0, 1, 45deg);
       }
+
       &:after {
         transform: translateY(0px) rotate3d(0, 0, 1, -45deg);
       }
@@ -115,8 +130,10 @@ nav {
       margin: 0;
       overflow: hidden;
       transition: all 0.5s ease-in-out;
+
       li {
         text-align: center;
+
         @for $i from 1 through 6 {
           &:nth-child(#{$i}) {
             opacity: 0;
@@ -126,8 +143,9 @@ nav {
       }
     }
 
-    [aria-expanded='true'] ~ ul {
+    [aria-expanded='true']~ul {
       height: 350px;
+
       li {
         opacity: 1;
         padding: 0;

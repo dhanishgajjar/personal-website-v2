@@ -1,8 +1,6 @@
 <li>
-  <h3>{{ .Title }}</h3>
+  <h2><a {{ if .Content }} href="{{ .Permalink }}" {{ else }} href="{{ .Params.projectURL }}" target="_blank" {{ end
+      }}>{{ .Title
+      }}</a></h2>
   <p class="summary">{{ .Params.Summary }}</p>
-  {{ if .Content }}
-  <a href="{{ .Permalink }}">Case Study →</a>
-  {{ end }}
-  <a href="{{ .Params.projectURL }}" target="_blank">Project URL →</a>
 </li>

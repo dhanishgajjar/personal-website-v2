@@ -2,10 +2,6 @@
   box-sizing: border-box;
 }
 
-html {
-  font-size: clamp(1rem, 2vw, 1.2rem);
-}
-
 ul {
   list-style: none;
   padding: 0;
@@ -38,7 +34,9 @@ body {
   color: slategray;
 }
 
-.about a, a:link a:visited, a:active {
+.about a,
+a:link a:visited,
+a:active {
   text-decoration: underline;
 }
 

@@ -15,7 +15,7 @@ My social media links are on the home page if you want to contact me.
 
 ![M1 Macbook Air 2021](/m1-macbook-air.jpg)
 
-### Backstory and how I got here
+## Backstory and how I got here
 
 First time I saw a computer was in my primary school. It was 1994. The air-conditioned room was full of beige boxes with black and white screens. A cursor was blinking away. I thought to myself, this is the best thing I have ever seen; I could spend hours sitting here. But, we only had 1 hour in like every 2 weeks.
 

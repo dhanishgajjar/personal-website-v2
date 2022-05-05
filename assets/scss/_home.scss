@@ -1,13 +1,23 @@
 .intro {
   margin: 30px 0;
   grid-area: intro;
+
   @media (min-width: 992px) {
     margin: 50px 0;
   }
-  span,
+
+  h1,
+  p {
+    margin: 0;
+  }
+
+  p {
+    font-size: clamp(1.5rem, 2.5vw, 2.5rem);
+  }
+
   h1 {
-    font-weight: 600;
-    line-height: 1.25;
+    font-size: 1.5rem;
+    font-weight: normal;
   }
 }
 
@@ -16,9 +26,11 @@
   grid-area: cards;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr;
+
   @media (max-width: 700px) {
     grid-template-columns: 1fr;
   }
+
   a,
   a:link,
   a:visited,
@@ -27,6 +39,7 @@
     cursor: pointer;
     text-decoration: none;
   }
+
   .card {
     background-color: white;
     border: 1px dashed transparent;
@@ -34,18 +47,22 @@
     min-height: 280px;
     flex-direction: column;
     padding: 40px;
+
     &:hover {
       outline: 2px dashed slategray;
     }
+
     h2 {
       font-weight: 500;
       margin: 0;
       text-transform: capitalize;
     }
+
     p {
       color: slategray;
       margin-top: 40px;
       position: relative;
+
       &:before {
         background-color: slategray;
         content: "";
