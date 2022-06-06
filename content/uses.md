@@ -7,11 +7,17 @@ menu:
 description: "Setup, Devices, Desk, IDE, tools, and other stuff I use"
 ---
 
-### Current Shoes
+### Shoes
+
+
+![New Balance 520 v7](/new-balance-520-v2.png)
 
 New Balance 520 v7
 
-![New Balance 520 v7](/new-balance-520-v2.png)
+![ACRONYM® x Nike Blazer Low](/acronym.png)
+
+ACRONYM® x Nike Blazer Low
+
 ### Editor
 
 - Visual Studio Code
