@@ -1,14 +1,13 @@
 ---
-title: 'Uses'
+title: "Uses"
 menu:
   mainmenu:
-    title: 'My complete setup and all the other stuff that I use'
+    title: "My complete setup and all the other stuff that I use"
     weight: 05
 description: "Setup, Devices, Desk, IDE, tools, and other stuff I use"
 ---
 
 ### Shoes
-
 
 ![New Balance 520 v7](/new-balance-520-v2.png)
 
@@ -30,19 +29,28 @@ ACRONYM® x Nike Blazer Low
 - Spaceship Prompt
 - Hyper with Dracula theme and Hyper Border Plugin
 - Droid Sans Mono for Powerline Font
+
 ### Setup
+
+#### Keyboards
+
+- Logitech MX Keys Keyboard
+- Nuphy AIR60 use "dha10" on their website to get 10% off
+- Apple Magic Keyboard
+
+#### Mice
+
+- Logitech MX Master 3
+- Apple Magic Mouse
 
 #### Mac
 
 - M1 Macbook Air with 16GB Ram and 512 GB SSD
-- Dell 25" U2515H Monitor
+- LG 27UP650-W Monitor
 - Caldigit TS3+ Dock
 - Logitech Z207 Bluetooth Speakers
-- Logitech MX Keys Keyboard
-- Logitech MX Master 3 Mouse
 - Logitech C922 Pro Webcam
-- TwelveSouth Curve Laptop Stand
-- TwelveSouth Curve Riser Monitor Stand
+- TwelveSouth BookArc Laptop Stand
 
 #### PC
 
@@ -59,6 +67,7 @@ ACRONYM® x Nike Blazer Low
 
 - Autonomous SmartDesk Pro - 53" x 29" (135 cms x 74 cms)
 - [Purchase from here](https://rb.gy/ppokil), use code "R-41bb3b" during checkout.
+
 ### Other Devices
 
 - AirPods Pro
