@@ -7,16 +7,6 @@ menu:
 description: "Setup, Devices, Desk, IDE, tools, and other stuff I use"
 ---
 
-### Shoes
-
-![New Balance 520 v7](/new-balance-520-v2.png)
-
-New Balance 520 v7
-
-![ACRONYM® x Nike Blazer Low](/acronym.png)
-
-ACRONYM® x Nike Blazer Low
-
 ### Editor
 
 - Visual Studio Code
@@ -25,10 +15,9 @@ ACRONYM® x Nike Blazer Low
 
 ### Terminal
 
-- Oh My Zsh with Syntax Highlighting Plugin
-- Spaceship Prompt
-- Hyper with Dracula theme and Hyper Border Plugin
-- Droid Sans Mono for Powerline Font
+- Warp
+- PowerLevel10K theme
+- MesloLGF Nerd Font
 
 ### Setup
 
@@ -40,7 +29,7 @@ ACRONYM® x Nike Blazer Low
 
 #### Mice
 
-- Logitech MX Master 3
+- Logitech MX Master 3S
 - Apple Magic Mouse
 
 #### Mac
@@ -70,10 +59,9 @@ ACRONYM® x Nike Blazer Low
 
 ### Other Devices
 
-- AirPods Pro
+- AirPods Pro (2nd Gen.)
 - iPhone 12 Pro Max
 - Nintendo Switch OLED (2021)
-- Apple Watch Series 4 - 44mm
+- Apple Watch Series 8 - 45mm
 - 11 Inch M1 iPad Pro & Apple Pencil
-- Nikon D5500 SLR
 - Xiaomi Mi Air 3C Air Purifier
