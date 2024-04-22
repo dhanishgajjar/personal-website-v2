@@ -6,16 +6,15 @@
 
   li {
     background-color: white;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    display: grid;
+    grid-template-rows: subgrid;
+    grid-row: span 3;
     padding: 20px;
-    place-items: center;
+    justify-items: center;
 
     img {
       box-shadow: 0 18px 30px rgba($color: #000000, $alpha: 0.3);
       height: 250px;
-      margin: 5px 0;
       object-fit: cover;
     }
 
@@ -24,26 +23,8 @@
       text-align: center;
     }
 
-    h2 {
-      min-height: 60px;
-    }
-
     h3 {
       color: slategray;
-    }
-
-    a {
-      border: 1px solid black;
-      max-width: 200px;
-      padding: 10px;
-      text-align: center;
-      transition: background-color 0.3s, color 0.3s;
-      width: 100%;
-
-      &:hover {
-        background-color: black;
-        color: white;
-      }
     }
   }
 
